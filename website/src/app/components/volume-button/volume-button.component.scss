@@ -1,0 +1,28 @@
+@import "../../../assets/scss/shared";
+
+.volume-button {
+  @include position(fixed, $bumper-mobile $bumper-mobile null null);
+  cursor: pointer;
+  display: block;
+  z-index: 5;
+
+  @include grid-media($m) {
+    @include position(fixed, $bumper $bumper null null);
+  }
+}
+
+.icon {
+  @include svg(30px, 30px, $white);
+  display: block;
+  transition: all $transition-speed;
+
+  &.mute {
+    /deep/ svg {
+      fill: $gray;
+    }
+  }
+
+  @include grid-media($m) {
+    @include svg(40px, 40px, $white);
+  }
+}

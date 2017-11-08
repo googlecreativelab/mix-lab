@@ -1,0 +1,48 @@
+{
+  "id": "2ac7127f-d397-4d3f-b7e4-40f30018e9ec",
+  "name": "slowDown",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "slowDown",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4fa4eb6c-b623-4cd3-901c-349151ecd4f3",
+          "dataType": "@sys.percentage",
+          "name": "percentage",
+          "value": "$percentage",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Ok, that\u0027s a bit slower."
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Slowwwww dowwwwwwn."
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508956076231,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,510 @@
+[
+  {
+    "id": "bc6da18d-5218-4169-b7db-3cc92bad7ff9",
+    "data": [
+      {
+        "text": "make ",
+        "userDefined": false
+      },
+      {
+        "text": "americana",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " music",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "898cf0cf-2874-4e25-ac1c-13fc8f2484aa",
+    "data": [
+      {
+        "text": "play ",
+        "userDefined": false
+      },
+      {
+        "text": "americana",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " music",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cd47467b-5280-4b79-8342-d0a20fb025a8",
+    "data": [
+      {
+        "text": "give me a ",
+        "userDefined": false
+      },
+      {
+        "text": "funky",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " tune",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f424b738-825e-459e-885b-7b5b86f2de18",
+    "data": [
+      {
+        "text": "give me a ",
+        "userDefined": false
+      },
+      {
+        "text": "jazz",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " tune",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8ca7ca98-1288-44a2-901a-fe83c37da6f3",
+    "data": [
+      {
+        "text": "give me a tune",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "30aa3cf8-763f-43d5-a8ad-3c775a99021b",
+    "data": [
+      {
+        "text": "make me a song",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9ee3c143-399f-46c6-ba48-05fbc80336dd",
+    "data": [
+      {
+        "text": "Random Song",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508965964
+  },
+  {
+    "id": "136659e5-b929-431d-ad89-cd4947cf59bf",
+    "data": [
+      {
+        "text": "Random mix",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508965964
+  },
+  {
+    "id": "34c91843-56d5-4753-ad24-2b64a8bc9f2f",
+    "data": [
+      {
+        "text": "Surprise me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508965964
+  },
+  {
+    "id": "2621a39a-c6ea-4cc3-a70a-52b367467d7c",
+    "data": [
+      {
+        "text": "Play me something",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508965964
+  },
+  {
+    "id": "050628b6-0ae4-44dc-b194-eb182b91e9d3",
+    "data": [
+      {
+        "text": "Turn them all on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508965964
+  },
+  {
+    "id": "8ced6968-020f-4415-ab4e-6e2adf43e30f",
+    "data": [
+      {
+        "text": "All the instruments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508965964
+  },
+  {
+    "id": "ad37fac8-417f-4b10-9a8a-dd1cf42ef381",
+    "data": [
+      {
+        "text": "Let\u0027s hear everything",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508965964
+  },
+  {
+    "id": "da4a606d-eff9-4123-8688-565961383abe",
+    "data": [
+      {
+        "text": "Make a song",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508965964
+  },
+  {
+    "id": "4ad92da3-8726-4a19-aae3-51228efeb691",
+    "data": [
+      {
+        "text": "play me a ",
+        "userDefined": false
+      },
+      {
+        "text": "sad",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " song",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508965964
+  },
+  {
+    "id": "4237aaaf-2a02-4cdf-a4f8-3ef0d791414a",
+    "data": [
+      {
+        "text": "give me a ",
+        "userDefined": false
+      },
+      {
+        "text": "funky",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "blues",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "reggae",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "disco",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": true
+      },
+      {
+        "text": " song",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508965964
+  },
+  {
+    "id": "65e0f0e5-097c-4db1-8277-9c2db3db4f83",
+    "data": [
+      {
+        "text": "cinco instruments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508965964
+  },
+  {
+    "id": "e3f0fe0a-4089-491d-b4ae-15adff3b02ab",
+    "data": [
+      {
+        "text": "play all the ",
+        "userDefined": false
+      },
+      {
+        "text": "funky",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "rock",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " instruments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507749126
+  },
+  {
+    "id": "6d75f94c-4374-438d-8933-ce4552fad35c",
+    "data": [
+      {
+        "text": "Play all the instruments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3e5a8a98-c7ae-42d3-871c-64db3070839a",
+    "data": [
+      {
+        "text": "make me a ",
+        "userDefined": false
+      },
+      {
+        "text": "funky",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "reggae",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " song",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507749126
+  },
+  {
+    "id": "d2942a9c-c14c-4b19-be03-51ecab3e29ca",
+    "data": [
+      {
+        "text": "make a ",
+        "userDefined": false
+      },
+      {
+        "text": "sad",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "reggae",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " song",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507749126
+  },
+  {
+    "id": "7152e92f-2675-486b-a488-c167d7836ffb",
+    "data": [
+      {
+        "text": "how about a ",
+        "userDefined": false
+      },
+      {
+        "text": "sad",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "funky",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "rock",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " song",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507749126
+  },
+  {
+    "id": "99b5a066-bfbc-4866-b4ad-b90194db7457",
+    "data": [
+      {
+        "text": "Play everything",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1241b218-fd85-4bd2-a6b8-d07e1a1de442",
+    "data": [
+      {
+        "text": "Bring it all in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e852c172-e92c-4893-b9c2-46c5bf65c742",
+    "data": [
+      {
+        "text": "all the ",
+        "userDefined": false
+      },
+      {
+        "text": "funky",
+        "alias": "genres",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " instruments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507749126
+  },
+  {
+    "id": "bb696791-c992-4ffb-90c9-8e4759c24e13",
+    "data": [
+      {
+        "text": "Turn on all the instruments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "44a7c15e-4779-4a57-9f50-b1a954d2c798",
+    "data": [
+      {
+        "text": "Give me a song",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507601816
+  }
+]

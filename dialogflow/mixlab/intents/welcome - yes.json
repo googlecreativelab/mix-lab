@@ -1,0 +1,36 @@
+{
+  "id": "db4e37d4-4741-407c-955e-d6a63f454c46",
+  "parentId": "33c57714-c77a-4686-a7c7-16d5fbf9d314",
+  "rootParentId": "33c57714-c77a-4686-a7c7-16d5fbf9d314",
+  "name": "welcome - yes",
+  "auto": true,
+  "contexts": [
+    "welcome-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "welcome.welcome-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "textToSpeech": "We’re going to make music using your voice commands. To add a track to your mix, say something like “Ok Google, add a funky beat” or “Hey Google, give me a happy guitar.” Feel free to hit me up for suggestions at any time.  If you’re ready, let’s start jamming.",
+          "displayText": "We’re going to make music using your voice commands. To add a track to your mix, say something like “Ok Google, add a funky beat” or “Hey Google, give me a happy guitar.” Feel free to hit me up for suggestions at any time.  If you’re ready, let’s start jamming."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509393449,
+  "fallbackIntent": false,
+  "events": []
+}

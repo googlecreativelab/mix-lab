@@ -1,0 +1,81 @@
+<div
+  class="about"
+  [ngClass]="{'active': status}">
+  <div class="about-inner">
+    <div class="header">About MixLab</div>
+    <div class="section">
+      <div
+        class="video-wrap">
+        <iframe
+          [src]="videoID | safe:'youtube'"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+    </div>
+    <div class="section">
+      <div class="description">
+        MixLab is an experiment that makes it easier for anyone to create music, using simple voice commands. Just say things like "Play me a funky bass," or "Add some jazz drums." Or let MixLab surprise you by simply saying “Play me something." Try it on a Google Home by saying "Hey Google, talk to MixLab," or try it on this site.
+      </div>
+    </div>
+    <div class="section">
+      <div class="header">Credits</div>
+      <div class="description">
+        <strong>Built by</strong><br>
+        <a href="https://github.com/trippedout" target="_blank">Anthony Tripaldi</a>, <a href="http://www.mayaman.cc/" target="_blank">Maya Man</a>, Prit Patel, <a href="https://yotammann.info/" target="_blank">Yotam Mann</a>, <a href="https://useallfive.com" target="_blank">Use All Five</a>, and friends at Google Creative Lab using
+        <a
+          href="https://dialogflow.com/"
+          angulartics2On="click"
+          angularticsEvent="Click"
+          angularticsCategory="External_Link_About"
+          [angularticsProperties]="{label: 'Dialogflow'}"
+          target="_blank">Dialogflow</a>
+        and
+        <a
+          href="https://developers.google.com/actions/"
+          angulartics2On="click"
+          angularticsEvent="Click"
+          angularticsCategory="External_Link_About"
+          [angularticsProperties]="{label: 'Acions on Google'}"
+          target="_blank">Actions on Google</a>.
+        Learn more on our
+        <a
+          href="https://github.com/googlecreativelab/mix-lab"
+          angulartics2On="click"
+          angularticsEvent="Click"
+          angularticsCategory="External_Link_About"
+          [angularticsProperties]="{label: 'Github Page'}"
+          target="_blank">Github page</a>,
+        and check out other
+        <a
+          href="https://experiments.withgoogle.com/voiceexperiments"
+          angulartics2On="click"
+          angularticsEvent="Click"
+          angularticsCategory="External_Link_About"
+          [angularticsProperties]="{label: 'Voice Experiments'}"
+          target="_blank">Voice Experiments</a>
+        here.<br><br>
+
+        <strong>Music by</strong><br>
+        <a href="http://blakestraus.com/" target="_blank">Blake Straus</a>: Composer & Musical Director<br>
+        Alek Fin: Producer/Engineer<br><br>
+
+        <strong>Musicians</strong><br>
+        Blake Straus - Fretted instruments, basses, keyboards<br>
+        Dylan Meek - Keyboards<br>
+        Roland Gajate Garcia - Drumkit and percussion<br>
+        DD Horns - Brass and woodwinds<br>
+        Morgan Paros - Violins<br>
+        Andrew Synowiec - Fretted instruments<br>
+        Corbin Jones - Basses and sousaphone<br>
+        Alison Balbag - Harp<br>
+        Ian Mallitz - Didgeridoo<br><br>
+        Additional Production Assistance:<br>
+        Daniel Braunstein, Christopher Dwyer, Zac Sager, Mashadi Maximus<br>
+        Recorded, Mixed, and Mastered at Pro Audio LA<br>
+      </div>
+    </div>
+  </div>
+  <app-close-button
+    (notify)="toggle($event)">
+  </app-close-button>
+</div>

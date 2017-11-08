@@ -1,0 +1,48 @@
+{
+  "id": "3308dbd4-f186-4bf6-a767-bc093094fe79",
+  "name": "replaceInstrument",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "replaceInstrument",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0081df0d-23c6-4cb8-aa65-2e4b4ebbeecc",
+          "dataType": "@instrument",
+          "name": "instrument",
+          "value": "$instrument",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Alright, trying something different."
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Mixing it up for ya!"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508956076256,
+  "fallbackIntent": false,
+  "events": []
+}

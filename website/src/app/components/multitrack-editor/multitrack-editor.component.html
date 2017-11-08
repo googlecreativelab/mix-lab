@@ -1,0 +1,26 @@
+<div
+  [ngClass]="{'active': showMobilePlay}"
+  class="mobile-play">
+  <span
+    (click)="playLoaded()"
+    class="play-icon"
+    [inlineSVG]="'/assets/images/play.svg'">
+  </span>
+</div>
+<div
+  class="voice-wrap"
+  [ngClass]="{'visible': voiceButtonVisible}">
+  <voice-button
+    class="mic"
+    cloud-speech-api-key="AIzaSyDhmUOpXNu4RJCmqhDDqP9FVFrOYtlRcvo"
+    [autodetect]="true"
+    (touchstart)="touchAudio()"
+    angulartics2On="click"
+    angularticsEvent="Click"
+    angularticsCategory="Activate_Mic"
+    id="voice-button">
+  </voice-button>
+</div>
+<canvas
+  #visualTracksCanvas>
+</canvas>

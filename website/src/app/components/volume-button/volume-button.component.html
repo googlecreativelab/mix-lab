@@ -1,0 +1,20 @@
+<div
+  class="volume-button"
+  (click)="toggleVolume()">
+  <span
+    class="icon"
+    *ngIf="!mute"
+    angulartics2On="click"
+    angularticsEvent="Click"
+    angularticsCategory="Mute"
+    [inlineSVG]="'/assets/images/volume.svg'">
+  </span>
+  <span
+    class="icon mute"
+    *ngIf="mute"
+    angulartics2On="click"
+    angularticsEvent="Click"
+    angularticsCategory="Unmute"
+    [inlineSVG]="'/assets/images/mute.svg'">
+  </span>
+</div>

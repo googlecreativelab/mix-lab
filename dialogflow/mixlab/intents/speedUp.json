@@ -1,0 +1,48 @@
+{
+  "id": "c7264473-cafa-4a7d-b2e3-f50db2d0fb59",
+  "name": "speedUp",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "speedUp",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9195e0ab-671b-44aa-a7e6-0a4d967530ce",
+          "dataType": "@sys.percentage",
+          "name": "percentage",
+          "value": "$percentage",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Ok! Let\u0027s kick it up a notch."
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Here we go!"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508956076199,
+  "fallbackIntent": false,
+  "events": []
+}

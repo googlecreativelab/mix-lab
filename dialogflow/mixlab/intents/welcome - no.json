@@ -1,0 +1,36 @@
+{
+  "id": "935c8a34-7e4e-4719-89d2-7614dfef8ff4",
+  "parentId": "33c57714-c77a-4686-a7c7-16d5fbf9d314",
+  "rootParentId": "33c57714-c77a-4686-a7c7-16d5fbf9d314",
+  "name": "welcome - no",
+  "auto": true,
+  "contexts": [
+    "welcome-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "welcome.welcome-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "textToSpeech": "Awesome. Just say “Ok Google, what should I play” if you need help. How do you want to kick it off?",
+          "displayText": "Awesome. Just say “Ok Google, what should I play” if you need help. How do you want to kick it off?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509393372,
+  "fallbackIntent": false,
+  "events": []
+}

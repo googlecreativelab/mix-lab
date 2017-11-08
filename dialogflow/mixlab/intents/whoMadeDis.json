@@ -1,0 +1,31 @@
+{
+  "id": "7c0136e0-6f1e-4b85-86b7-e86878aa8a43",
+  "name": "whoMadeDis",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "textToSpeech": "Mix Lab was made by Google Creative Lab. Music direction was provided by Blake Strauss. Find out more at g.co/mixlab.",
+          "displayText": "Mix Lab was made by Google Creative Lab. Music direction was provided by Blake Strauss. Find out more at g.co/mixlab."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509393922062,
+  "fallbackIntent": false,
+  "events": []
+}

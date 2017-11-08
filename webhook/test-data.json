@@ -1,0 +1,59 @@
+{
+  "id": "f4abdf5f-5c72-4e94-89a9-93b4bb93d740",
+  "timestamp": "2017-09-11T21:06:15.103Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "add a funky electric guitar",
+    "action": "addInstrument",
+    "actionIncomplete": false,
+    "parameters": {
+      "genre": "Funk",
+      "instrument": "Guitar",
+      "wildcard": ""
+    },
+    "contexts": [
+      {
+        "name": "_actions_on_google_",
+        "parameters": {
+          "genre": "Funk",
+          "wildcard.original": "",
+          "instrument": "Guitar",
+          "instrument.original": "electric guitar",
+          "genre.original": "funky",
+          "wildcard": ""
+        },
+        "lifespan": 100
+      }
+    ],
+    "metadata": {
+      "intentId": "334d2ac5-b715-459b-9153-c3708623c971",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "webhookResponseTime": 394,
+      "intentName": "addInstrument"
+    },
+    "fulfillment": {
+      "speech": "Thank you for testing add instrument. What next?",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Thank you for testing add instrument. What next?"
+        }
+      ],
+      "data": {
+        "google": {
+          "expect_user_response": true,
+          "is_ssml": false,
+          "no_input_prompts": []
+        }
+      }
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "e04c76bf-6e16-4ccb-ab10-5da3a4187289"
+}

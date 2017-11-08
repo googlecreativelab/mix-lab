@@ -1,0 +1,7 @@
+<div
+  class="container{{ isTouch ? ' is-touch' : ''}}"
+  [ngClass]="containerClass">
+  <app-multitrack-editor *ngIf="fallback?.supported"></app-multitrack-editor>
+  <router-outlet *ngIf="fallback?.supported"></router-outlet>
+  <app-fallback *ngIf="!fallback?.supported" [message]="fallback?.message"></app-fallback>
+</div>

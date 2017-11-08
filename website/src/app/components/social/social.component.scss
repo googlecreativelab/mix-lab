@@ -1,0 +1,101 @@
+@import "../../../assets/scss/shared";
+
+.social {
+  @extend %body-m;
+  @include position(fixed, null $bumper-mobile $bumper-mobile null);
+  color: rgba($white, 0.5);
+  transition: all $transition-speed;
+  z-index: 999999;
+
+  &.active {
+    color: $white;
+  }
+
+  @include grid-media($m) {
+    @include position(fixed, null $bumper $bumper null);
+  }
+}
+
+.text {
+  @include position(absolute, 50% 0 null null);
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(-50%);
+  transition: all $transition-speed;
+  white-space: nowrap;
+  z-index: 13;
+
+  @include grid-media($m) {
+    font-size: 20px;
+  }
+
+  @media (max-height: 850px) and (max-width: 768px) {
+    font-size: 14px;
+  }
+
+  &.inactive {
+    opacity: 0;
+    pointer-events: none;
+    z-index: 10;
+  }
+}
+
+.icon-wrap {
+  display: block;
+  opacity: 0;
+  position: relative;
+  transition: opacity 0.4s;
+  z-index: 12;
+
+  &.active {
+    opacity: 1;
+  }
+}
+
+.icon {
+  @include svg(22px, 16px, $white);
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+
+  & + & {
+    margin-left: 5px;
+  }
+
+  &.facebook {
+    @include svg(9px, 20px, $white);
+  }
+
+  &.google {
+    @include svg(31px, 16px, $white);
+  }
+
+  &.link {
+    @include svg(25px, 25px, $white);
+  }
+
+  @include grid-media($m) {
+    @include svg(27px, 21px, $white);
+
+    & + & {
+      margin-left: 10px;
+    }
+
+    &.facebook {
+      @include svg(12px, 24px, $white);
+    }
+
+    &.google {
+      @include svg(36px, 21px, $white);
+    }
+
+    &.link {
+      @include svg(32px, 32px, $white);
+    }
+  }
+}

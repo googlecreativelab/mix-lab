@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bourbon/app/assets/stylesheets/bourbon';
+@import 'assets/scss/colors';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+html {
+  @include prefixer(font-smoothing, antialiased, webkit);
+  @include prefixer(osx-font-smoothing, grayscale, moz);
+  user-select: none;
+  overflow: hidden;
+}
+
+body {
+  background: $black;
+  color: $gray;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}

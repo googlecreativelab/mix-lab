@@ -1,0 +1,22 @@
+{
+  "name": "MixLab",
+  "description": "A Voice Experiment that gives users the ability to make music just by telling the app what they want to hear.",
+  "version": "1.0.0",
+  "license": "Apache Version 2.0",
+  "author": "Google Creative Lab & Friends",
+  "scripts": {
+    "lint": "eslint --fix \"**/*.js\"",
+    "deploy": "gcloud beta functions deploy webhook --trigger-http --stage-bucket staging.say-to-play.appspot.com",
+    "call": "gcloud beta functions call webhook",
+    "test": "functions call webhook --file=test-data.json && functions logs read"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^1.1.0",
+    "actions-on-google": "^1.5.1",
+    "node-fetch": "^1.7.3",
+    "superagent": "^3.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1"
+  }
+}

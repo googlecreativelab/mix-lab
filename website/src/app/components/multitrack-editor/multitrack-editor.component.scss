@@ -1,0 +1,89 @@
+@import "../../../assets/scss/shared";
+
+canvas {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 4;
+  width: 30%;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.mic {
+  @include position(relative, null null $bumper-mobile 50%);
+  height: 100px;
+  transform-origin: bottom center;
+  transform: translateX(-50%) scale(0.5); // Scale is a hack to get the button smaller since `diameter` wasnt working
+  width: 100px;
+  z-index: 3;
+
+  @include grid-media($m) {
+    @include position(relative, null null $bumper 50%);
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+.voice-wrap {
+  @include position(fixed, null 0 0 0);
+  @include margin(0 auto);
+  @include size(50px auto);
+  transform: translateY(30px);
+  transition: all 0.25s ease-out;
+  display: block;
+  z-index: 10;
+  opacity: 0;
+  pointer-events: none;
+
+  @include grid-media($m) {
+    @include size(100px auto);
+  }
+
+  &.visible {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+.mobile-play {
+  @include position(fixed, 0 0 0 0);
+  background-color: rgba($black, 0.6);
+  display: block;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s 0s;
+  width: 100%;
+  z-index: 999;
+
+  &.active {
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.5s 2.5s;
+  }
+
+  @include grid-media($m) {
+    display: none;
+  }
+}
+
+.play-icon {
+  @include position(absolute, 50% null null 50%);
+  @include svg(78px, 78px, $white);
+  display: block;
+  transform: translate(-50%, -50%);
+}

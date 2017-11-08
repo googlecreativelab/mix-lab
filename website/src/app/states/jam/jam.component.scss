@@ -1,0 +1,179 @@
+@import "../../../assets/scss/shared";
+
+.jam {
+  overflow: hidden;
+}
+
+.back-button {
+  @include svg(40px, 40px, $white);
+  @include position(fixed, 16px null null 10px);
+  color: $white;
+  text-decoration: none;
+  transition: all $transition-speed;
+  z-index: 5;
+
+  @include grid-media($m) {
+    @include svg(60px, 60px, $white);
+    @include position(absolute, $bumper null null $bumper);
+  }
+}
+
+.mic {
+  @include position(relative, null null $bumper-mobile 50%);
+  height: 100px;
+  transform-origin: bottom center;
+  transform: translateX(-50%) scale(0.5); // Scale is a hack to get the button smaller since `diameter` wasnt working
+  width: 100px;
+  z-index: 3;
+
+  @include grid-media($m) {
+    @include position(relative, null null $bumper 50%);
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+.command {
+  @include position(fixed, 12% $bumper-mobile null);
+  padding-top: $bumper-mobile;
+  pointer-events: none;
+  text-align: center;
+  z-index: 6;
+
+  &.fallback-state {
+    pointer-events: auto;
+  }
+
+  @include grid-media($m) {
+    @include position(fixed, 10% $bumper null);
+  }
+}
+
+.fallback {
+  @extend %body;
+  @include position(fixed, null null null 50%);
+  font-size: 12px;
+  transform: translateX(-50%);
+  width: 90%;
+
+  /deep/ a {
+    color: inherit;
+  }
+
+  /deep/ br {
+    display: none;
+  }
+
+  @include grid-media($m) {
+    width: 50%;
+    font-size: 16px;
+
+    /deep/ br:nth-child(2) {
+      display: none;
+    }
+  }
+
+  @include grid-media($l) {
+    /deep/ br {
+      display: block;
+    }
+  }
+}
+
+.message {
+  color: $white;
+  font-size: 16px;
+  opacity: 0;
+  transition: all $transition-speed ease-in;
+
+  &.showing {
+    opacity: 0.5;
+  }
+
+  &.listening {
+    opacity: 1;
+    color: $white;
+  }
+
+  @include grid-media($m) {
+    font-size: 34px;
+  }
+}
+
+.action {
+  @include position(absolute, 0 null null 50%); // position absolutely so that command doesnt jump when no longer listening
+  color: $white;
+  transform: translateX(-50%);
+
+  @include grid-media($m) {
+    margin-top: -$bumper;
+  }
+}
+
+.actiontext {
+  &.mobile {
+    display: none;
+
+    /deep/ .is-touch & {
+      display: inline-block;
+    }
+  }
+
+  &.desktop {
+    display: inline-block;
+
+    /deep/ .is-touch & {
+      display: none;
+    }
+  }
+}
+
+.icon {
+  @include svg(10px, 13px, rgba(255, 255, 255, 0.75));
+  display: inline-block;
+  height: auto;
+  vertical-align: middle;
+
+  @include grid-media($m) {
+    @include svg(12px, 16px, rgba(255, 255, 255, 0.75));
+    margin-right: 3px;
+  }
+}
+
+.idle-text,
+.listen-text {
+  @include position(absolute, 0 null null 50%);
+  display: block;
+  fill: rgba(255, 255, 255, 0.75);
+  font-size: 14px;
+  opacity: 0;
+  position: absolute;
+  white-space: nowrap;
+  transform: translateX(-50%);
+
+  @include grid-media($m) {
+    font-size: 22px;
+  }
+}
+
+.idle-text {
+  transition: opacity 0.5s;
+
+  &.idle {
+    opacity: 0.75;
+    transition: opacity 0.5s;
+  }
+}
+
+.listen-text {
+  transition: opacity 0.5s;
+
+  &.listening {
+    opacity: 0.75;
+  }
+}
+
+.debug {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

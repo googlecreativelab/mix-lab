@@ -1,0 +1,8 @@
+[
+  {
+    "origin": ["https://your-app.appspot.com", "http://localhost:5000"],
+    "responseHeader": ["Content-Type"],
+    "method": ["GET"],
+    "maxAgeSeconds": 3600
+  }
+]

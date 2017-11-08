@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+  <script src="assets/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+  <link href="assets/voice-button.html" rel="import">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- BeginMetaTagPlaceholder -->
+  <title>MixLab</title>
+  <meta property="og:title" content="MixLab" />
+  <meta property="og:description" content="Make music using simple voice commands with MixLab. Just say things like “Give me a funky bass.”" />
+  <meta property="og:url" content="https://mixlab.withgoogle.com" />
+  <meta name="twitter:title" content="MixLab">
+  <meta name="twitter:description" content="Make music using simple voice commands with MixLab. Just say things like “Give me a funky bass.”">
+  <!-- EndMetaTagPlaceholder -->
+  <meta property="og:image" content="https://mixlab.withgoogle.com/assets/images/share.jpg" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://mixlab.withgoogle.com/assets/images/share.jpg">
+  <meta property="og:type" content="website" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicons/manifest.json">
+  <meta name="theme-color" content="#000000">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <!-- GA -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-108548002-2', 'auto');
+    ga('set', 'referrer', document.referrer.split('?')[0]);
+    ((window.location.hostname !== 'localhost') ? ga('send', 'pageview') : null);
+  </script>
+  <!-- IE Incompatibility message -->
+  <script type="text/javascript">
+    var html = document.getElementsByTagName('html')[0];
+    ((navigator.appName == 'Microsoft Internet Explorer' || !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) || (typeof $ !== 'undefined' && typeof $.browser !== "undefined" && $.browser.msie == 1)) ? html.classList.add('ie') : '');
+  </script>
+  <style>
+    html.ie .incompatible {
+      display: block !important;
+      position: absolute;
+      top: 25%;
+      text-align: center;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    html.ie body {
+      color: #ccc;
+      background-color: #181818;
+      background-image: url('/assets/images/fallback.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/images/fallback.jpg',sizingMethod='scale');
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/someimage.png',sizingMethod='scale')";
+    }
+
+    html.ie app-root {
+      display: none;
+    }
+
+    html.ie .incompatible h1 {
+      font-family: 'Rubik', 'Arial Black', 'Helvetica', sans-serif;
+      font-weight: 600;
+      letter-spacing: -2px;
+      color: #fff;
+      font-size: 45px;
+    }
+
+    html.ie .incompatible a {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <app-root></app-root>
+  <div style="display: none;" class="incompatible">
+    This browser doesn’t support speech recognition. Bummer!<br>
+    <br>
+    Try using a different browser, such as <a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a> for Desktop or Android.
+  </div>
+</body>
+</html>

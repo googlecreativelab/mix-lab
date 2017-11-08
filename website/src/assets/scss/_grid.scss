@@ -1,0 +1,27 @@
+$bumper: 30px;
+$bumper-mobile: 20px;
+
+// Override default gutter
+$neat-grid: (
+  gutter: $bumper,
+);
+
+$s: (
+  media: 576px, // min-width
+  gutter: $bumper-mobile
+);
+
+$m: (
+  media: 768px, // min-width
+  gutter: $bumper
+);
+
+$l: (
+  media: 992px, // min-width
+  gutter: $bumper
+);
+
+$xl: (
+  media: 1200px, // min-width
+  gutter: $bumper
+);

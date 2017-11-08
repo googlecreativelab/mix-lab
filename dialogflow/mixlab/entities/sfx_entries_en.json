@@ -1,0 +1,755 @@
+[
+  {
+    "value": "airhorn",
+    "synonyms": [
+      "airhorn",
+      "air horn",
+      "noise",
+      "airhorns"
+    ]
+  },
+  {
+    "value": "church bell",
+    "synonyms": [
+      "church bell",
+      "bells"
+    ]
+  },
+  {
+    "value": "horse neigh",
+    "synonyms": [
+      "horse neigh",
+      "neigh",
+      "horse"
+    ]
+  },
+  {
+    "value": "balloon pop",
+    "synonyms": [
+      "balloon pop",
+      "pop",
+      "balloon"
+    ]
+  },
+  {
+    "value": "cannon firing",
+    "synonyms": [
+      "cannon firing",
+      "cannonball"
+    ]
+  },
+  {
+    "value": "frog",
+    "synonyms": [
+      "frog",
+      "ribbet"
+    ]
+  },
+  {
+    "value": "car honking",
+    "synonyms": [
+      "car honking",
+      "honk",
+      "car honk"
+    ]
+  },
+  {
+    "value": "clock ticking",
+    "synonyms": [
+      "clock ticking",
+      "tick tock"
+    ]
+  },
+  {
+    "value": "explosion",
+    "synonyms": [
+      "explosion",
+      "blast"
+    ]
+  },
+  {
+    "value": "campfire",
+    "synonyms": [
+      "campfire",
+      "fire",
+      "crackling",
+      "burning"
+    ]
+  },
+  {
+    "value": "cat meow",
+    "synonyms": [
+      "cat meow",
+      "meow",
+      "cat"
+    ]
+  },
+  {
+    "value": "dog bark",
+    "synonyms": [
+      "dog bark",
+      "bark",
+      "dog",
+      "barking dog",
+      "dog barking"
+    ]
+  },
+  {
+    "value": "crickets",
+    "synonyms": [
+      "crickets",
+      "chirp"
+    ]
+  },
+  {
+    "value": "helicopter",
+    "synonyms": [
+      "helicopter",
+      "chopper",
+      "copter"
+    ]
+  },
+  {
+    "value": "alarm clock",
+    "synonyms": [
+      "alarm clock",
+      "clock"
+    ]
+  },
+  {
+    "value": "chicken clucking",
+    "synonyms": [
+      "chicken clucking",
+      "cluck"
+    ]
+  },
+  {
+    "value": "boat horn",
+    "synonyms": [
+      "boat horn",
+      "ship",
+      "boat"
+    ]
+  },
+  {
+    "value": "elephant",
+    "synonyms": [
+      "elephant",
+      "animal sounds",
+      "animal sound",
+      "animal noise"
+    ]
+  },
+  {
+    "value": "crow cawing",
+    "synonyms": [
+      "crow cawing",
+      "crow"
+    ]
+  },
+  {
+    "value": "dial up sound",
+    "synonyms": [
+      "dial up sound",
+      "56k",
+      "dial up",
+      "internet",
+      "dial-up sound"
+    ]
+  },
+  {
+    "value": "cow moo",
+    "synonyms": [
+      "cow moo",
+      "moo",
+      "cow"
+    ]
+  },
+  {
+    "value": "crowd cheering",
+    "synonyms": [
+      "crowd cheering",
+      "cheers",
+      "cheering"
+    ]
+  },
+  {
+    "value": "rooster cockadoodledoo",
+    "synonyms": [
+      "rooster cockadoodledoo",
+      "cockadoodledoo",
+      "rooster",
+      "red rooster",
+      "fire rooster"
+    ]
+  },
+  {
+    "value": "referee whistling",
+    "synonyms": [
+      "referee whistling",
+      "ref",
+      "referee"
+    ]
+  },
+  {
+    "value": "doorbell",
+    "synonyms": [
+      "doorbell"
+    ]
+  },
+  {
+    "value": "lion roaring",
+    "synonyms": [
+      "lion roaring",
+      "lion",
+      "roar"
+    ]
+  },
+  {
+    "value": "train",
+    "synonyms": [
+      "train",
+      "choo choo"
+    ]
+  },
+  {
+    "value": "firetruck",
+    "synonyms": [
+      "firetruck",
+      "fire",
+      "fire siren"
+    ]
+  },
+  {
+    "value": "pig squealing",
+    "synonyms": [
+      "pig squealing",
+      "pig",
+      "squeel"
+    ]
+  },
+  {
+    "value": "laser gun",
+    "synonyms": [
+      "laser gun",
+      "lasers",
+      "blaster",
+      "laser",
+      "laser sounds",
+      "laser sound"
+    ]
+  },
+  {
+    "value": "fireworks",
+    "synonyms": [
+      "fireworks"
+    ]
+  },
+  {
+    "value": "wind chimes",
+    "synonyms": [
+      "wind chimes",
+      "chimes"
+    ]
+  },
+  {
+    "value": "glass breaking",
+    "synonyms": [
+      "glass breaking",
+      "glass",
+      "breakdown",
+      "broken glass"
+    ]
+  },
+  {
+    "value": "owl hoot",
+    "synonyms": [
+      "owl hoot",
+      "hoot",
+      "owl",
+      "bird",
+      "birds"
+    ]
+  },
+  {
+    "value": "telephone ringing",
+    "synonyms": [
+      "telephone ringing",
+      "ring ring",
+      "ring"
+    ]
+  },
+  {
+    "value": "waves",
+    "synonyms": [
+      "waves",
+      "ocean"
+    ]
+  },
+  {
+    "value": "underwater",
+    "synonyms": [
+      "underwater",
+      "water"
+    ]
+  },
+  {
+    "value": "thunder",
+    "synonyms": [
+      "thunder",
+      "storm",
+      "thunderstorm"
+    ]
+  },
+  {
+    "value": "gong",
+    "synonyms": [
+      "gong"
+    ]
+  },
+  {
+    "value": "handclaps",
+    "synonyms": [
+      "claps",
+      "crowd clap",
+      "handclaps"
+    ]
+  },
+  {
+    "value": "jaw harp",
+    "synonyms": [
+      "jaw harp"
+    ]
+  },
+  {
+    "value": "monkey",
+    "synonyms": [
+      "ape",
+      "gorilla",
+      "monkey"
+    ]
+  },
+  {
+    "value": "singing",
+    "synonyms": [
+      "vox",
+      "vocals",
+      "singing"
+    ]
+  },
+  {
+    "value": "choir",
+    "synonyms": [
+      "choral",
+      "chorus",
+      "choir"
+    ]
+  },
+  {
+    "value": "crowd clapping",
+    "synonyms": [
+      "clapping",
+      "audience",
+      "crowd clapping"
+    ]
+  },
+  {
+    "value": "boing",
+    "synonyms": [
+      "boing",
+      "spring",
+      "boing"
+    ]
+  },
+  {
+    "value": "finger cymbals",
+    "synonyms": [
+      "castinettes",
+      "finger cymbals"
+    ]
+  },
+  {
+    "value": "marching band whistle",
+    "synonyms": [
+      "marching band",
+      "marching band whistle"
+    ]
+  },
+  {
+    "value": "triangle",
+    "synonyms": [
+      "ding",
+      "triangle"
+    ]
+  },
+  {
+    "value": "howling ghost",
+    "synonyms": [
+      "moans",
+      "howling ghost"
+    ]
+  },
+  {
+    "value": "river",
+    "synonyms": [
+      "stream",
+      "water",
+      "river"
+    ]
+  },
+  {
+    "value": "waterfall",
+    "synonyms": [
+      "water fall",
+      "waterfall"
+    ]
+  },
+  {
+    "value": "motorcycle",
+    "synonyms": [
+      "motorcycle"
+    ]
+  },
+  {
+    "value": "car revving",
+    "synonyms": [
+      "engine",
+      "motor",
+      "rev",
+      "car revving",
+      "car",
+      "engine"
+    ]
+  },
+  {
+    "value": "woodpecker",
+    "synonyms": [
+      "woody",
+      "woodpecker",
+      "bird chirp",
+      "bird"
+    ]
+  },
+  {
+    "value": "zombie",
+    "synonyms": [
+      "undead",
+      "groan",
+      "zombie"
+    ]
+  },
+  {
+    "value": "seagull",
+    "synonyms": [
+      "seagull"
+    ]
+  },
+  {
+    "value": "coffee shop",
+    "synonyms": [
+      "coffee shop"
+    ]
+  },
+  {
+    "value": "forest",
+    "synonyms": [
+      "outdoors",
+      "woods",
+      "forest"
+    ]
+  },
+  {
+    "value": "video game sounds",
+    "synonyms": [
+      "bleeps",
+      "bloops",
+      "atari",
+      "sega",
+      "nintendo",
+      "video game sounds"
+    ]
+  },
+  {
+    "value": "chalk writing",
+    "synonyms": [
+      "chalkboard",
+      "chalk",
+      "blackboard",
+      "chalk writing"
+    ]
+  },
+  {
+    "value": "city traffic noises",
+    "synonyms": [
+      "city",
+      "traffic",
+      "city traffic noises"
+    ]
+  },
+  {
+    "value": "wolf howling",
+    "synonyms": [
+      "wolf",
+      "howl",
+      "wolf howling"
+    ]
+  },
+  {
+    "value": "hippo",
+    "synonyms": [
+      "hippo"
+    ]
+  },
+  {
+    "value": "tire squeals",
+    "synonyms": [
+      "tires",
+      "squeals",
+      "tire squeals"
+    ]
+  },
+  {
+    "value": "ufo",
+    "synonyms": [
+      "alien",
+      "flying saucer",
+      "ufo"
+    ]
+  },
+  {
+    "value": "tiger growls",
+    "synonyms": [
+      "tiger",
+      "growl",
+      "tiger growls"
+    ]
+  },
+  {
+    "value": "waves crashing",
+    "synonyms": [
+      "waves",
+      "beach",
+      "tide",
+      "waves crashing"
+    ]
+  },
+  {
+    "value": "sonar",
+    "synonyms": [
+      "submarine",
+      "radar",
+      "sonar"
+    ]
+  },
+  {
+    "value": "typewriter",
+    "synonyms": [
+      "click clack",
+      "typewriter"
+    ]
+  },
+  {
+    "value": "drone",
+    "synonyms": [
+      "drone"
+    ]
+  },
+  {
+    "value": "refrigerator hum",
+    "synonyms": [
+      "fridge",
+      "refrigerator",
+      "hum",
+      "refrigerator hum"
+    ]
+  },
+  {
+    "value": "swamp sounds",
+    "synonyms": [
+      "swamp",
+      "bayou",
+      "swamp sounds"
+    ]
+  },
+  {
+    "value": "car alarm",
+    "synonyms": [
+      "car alarm"
+    ]
+  },
+  {
+    "value": "airplane takeoff",
+    "synonyms": [
+      "jet",
+      "airport",
+      "airplane takeoff"
+    ]
+  },
+  {
+    "value": "vinyl crackling",
+    "synonyms": [
+      "vinyl",
+      "crackling",
+      "lp",
+      "vinyl crackling"
+    ]
+  },
+  {
+    "value": "printer sounds",
+    "synonyms": [
+      "printing",
+      "printer",
+      "inkjet",
+      "printer sounds"
+    ]
+  },
+  {
+    "value": "bubbles",
+    "synonyms": [
+      "bubbles"
+    ]
+  },
+  {
+    "value": "movie projector",
+    "synonyms": [
+      "movie",
+      "projector",
+      "projection",
+      "movie projector"
+    ]
+  },
+  {
+    "value": "bicycle bell",
+    "synonyms": [
+      "bicycle",
+      "bicycle bell"
+    ]
+  },
+  {
+    "value": "white noise",
+    "synonyms": [
+      "white noise"
+    ]
+  },
+  {
+    "value": "brown noise",
+    "synonyms": [
+      "brown noise"
+    ]
+  },
+  {
+    "value": "rain",
+    "synonyms": [
+      "shower",
+      "rain"
+    ]
+  },
+  {
+    "value": "vacuum cleaner",
+    "synonyms": [
+      "dyson",
+      "vacuum",
+      "vacuum cleaner"
+    ]
+  },
+  {
+    "value": "dinosaur",
+    "synonyms": [
+      "monster",
+      "dinosaur"
+    ]
+  },
+  {
+    "value": "frying pan",
+    "synonyms": [
+      "cooking",
+      "frying pan"
+    ]
+  },
+  {
+    "value": "rowing boat",
+    "synonyms": [
+      "rowboat",
+      "boat",
+      "rowing boat"
+    ]
+  },
+  {
+    "value": "chain saw",
+    "synonyms": [
+      "chain saw"
+    ]
+  },
+  {
+    "value": "mouse squeak",
+    "synonyms": [
+      "mouse squeak"
+    ]
+  },
+  {
+    "value": "whispering",
+    "synonyms": [
+      "asmr",
+      "whispering"
+    ]
+  },
+  {
+    "value": "hyenas",
+    "synonyms": [
+      "laughing",
+      "hyenas"
+    ]
+  },
+  {
+    "value": "bear growl",
+    "synonyms": [
+      "bear growl"
+    ]
+  },
+  {
+    "value": "tea kettle",
+    "synonyms": [
+      "boiling",
+      "steaming",
+      "tea kettle"
+    ]
+  },
+  {
+    "value": "amen",
+    "synonyms": [
+      "amen"
+    ]
+  },
+  {
+    "value": "basketball buzzer",
+    "synonyms": [
+      "basketball",
+      "buzzer",
+      "basketball buzzer"
+    ]
+  },
+  {
+    "value": "turntable",
+    "synonyms": [
+      "turntable",
+      "turntable scratch",
+      "scratch",
+      "scratches",
+      "turntable scratches",
+      "vinyl",
+      "turntablism",
+      "scratching",
+      "turntablist"
+    ]
+  },
+  {
+    "value": "fart",
+    "synonyms": [
+      "fart",
+      "farting",
+      "farts",
+      "whoopee cushion",
+      "whoopie cushion"
+    ]
+  }
+]

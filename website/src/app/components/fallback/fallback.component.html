@@ -1,0 +1,10 @@
+<div
+  class="fallback"
+  [ngStyle]="{'background': 'url(/assets/images/fallback.jpg) center center no-repeat', 'background-size': 'cover'}">
+  <div
+    class="message">
+    {{ message ? message : 'This browser doesn’t support speech recognition.' }}<br>
+    <br>
+    Try using a different browser, such as <a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a> on either Desktop or Android.
+  </div>
+</div>

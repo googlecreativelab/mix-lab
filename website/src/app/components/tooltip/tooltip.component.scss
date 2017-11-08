@@ -1,0 +1,48 @@
+@import "../../../assets/scss/shared";
+
+:host {
+  @include position(fixed, null 0 100px 0);
+  margin: 0 auto;
+  overflow: hidden;
+  width: 90%;
+  z-index: 9999;
+
+  @include grid-media($m) {
+    @include position(fixed, null $spacing-m 75px auto);
+    max-width: 360px;
+
+    &.copied {
+      &::after {
+        content: 'Link copied to clipboard!';
+      }
+    }
+  }
+
+  textarea {
+    @extend %body;
+    @include padding(15px 15px 25px);
+    background-color: $white;
+    border: none;
+    border-radius: 15px;
+    color: $black;
+    font-size: 16px;
+    line-height: 1.2;
+    outline: none;
+    text-align: center;
+    resize: none;
+    width: 100%;
+  }
+
+  &::after {
+    @include position(fixed, null null 15px 50%);
+    content: 'Copy link to clipboard';
+    color: $gray;
+    display: block;
+    font-size: 11px;
+    pointer-events: none;
+    text-align: center;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+}

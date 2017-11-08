@@ -1,0 +1,54 @@
+{
+  "id": "33c57714-c77a-4686-a7c7-16d5fbf9d314",
+  "name": "welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "welcome",
+      "affectedContexts": [
+        {
+          "name": "welcome-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "Welcome to Mix Lab. Is this your first time here?",
+              "displayText": "Welcome to Mix Lab. Is this your first time here?"
+            },
+            {
+              "textToSpeech": "Welcome to Mix Lab. Is this your first time jamming?",
+              "displayText": "Welcome to Mix Lab. Is this your first time jamming?"
+            },
+            {
+              "textToSpeech": "Welcome to Mix Lab. Is this your first time making a mix?",
+              "displayText": "Welcome to Mix Lab. Is this your first time making a mix?"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508956076264,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

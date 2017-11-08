@@ -1,0 +1,22 @@
+@import "../../../assets/scss/shared";
+
+.fallback {
+  @include position(fixed, 0 0 0 0);
+  height: 100%;
+  width: 100%;
+}
+
+.message {
+  @extend %body-m;
+  @include align-all(absolute);
+  @include padding($spacing-l $spacing-s);
+  color: $white;
+  max-width: 800px;
+  text-align: center;
+  width: 80%;
+  z-index: 2;
+
+  a {
+    color: $white;
+  }
+}

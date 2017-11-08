@@ -1,0 +1,40 @@
+{
+  "id": "bbb73f5f-6d08-485a-89f8-195a371d88eb",
+  "name": "increaseDuration",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "increaseDuration",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Good idea, let\u0027s keep it going!"
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "We\u0027re gonna dance all night!"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508956076238,
+  "fallbackIntent": false,
+  "events": []
+}

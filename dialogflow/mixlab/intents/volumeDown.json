@@ -1,0 +1,48 @@
+{
+  "id": "b2b13011-ec3f-4c88-9499-820f389c2a15",
+  "name": "volumeDown",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "volumeDown",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a53b0d78-10aa-445c-89cd-4b1275092ec4",
+          "dataType": "@instrument",
+          "name": "instrument",
+          "value": "$instrument",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Turning it down."
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Bringing the volume down."
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509116549,
+  "fallbackIntent": false,
+  "events": []
+}

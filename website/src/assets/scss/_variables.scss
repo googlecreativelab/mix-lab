@@ -1,0 +1,17 @@
+// Spacing
+$spacing-s: 30px;
+$spacing-m: 40px;
+$spacing-l: 60px;
+$spacing-xl: 100px;
+
+// Borders
+$border-radius: 35px;
+$border-radius-l: $border-radius * 2;
+
+// Typography spacing
+$letter-spacing: 0.2em;
+
+// Transition
+$transition-speed: 0.3s;
+$transition-delay: 1s;
+$transition-ease: cubic-bezier(0.165, 0.840, 0.440, 1.000);

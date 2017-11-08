@@ -1,0 +1,35 @@
+{
+  "id": "d42188a4-c110-4ec2-9da3-08af0d12832e",
+  "name": "fallback",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I’m sorry, I didn’t pick that up. Maybe try to say that another way?",
+            "My ears aren’t too good from years of DJing. Want to try asking that differently?",
+            "Not sure if I heard you correctly. Can you try saying that another way?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508969865,
+  "fallbackIntent": true,
+  "events": []
+}

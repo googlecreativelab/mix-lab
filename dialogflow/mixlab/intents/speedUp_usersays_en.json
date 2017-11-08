@@ -1,0 +1,204 @@
+[
+  {
+    "id": "029c51c5-9969-4d40-bf75-5f88cbf25c50",
+    "data": [
+      {
+        "text": "speed it up ",
+        "userDefined": false
+      },
+      {
+        "text": "25%",
+        "alias": "percentage",
+        "meta": "@sys.percentage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dded908a-c8dc-4ba5-852c-cfd632f725d2",
+    "data": [
+      {
+        "text": "play this a bit faster",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6302ffe3-98c9-4bde-a7e9-91fb1dbf8a02",
+    "data": [
+      {
+        "text": "play this faster",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc580aed-818c-46dd-b233-bfb6fa5bdd59",
+    "data": [
+      {
+        "text": "speed up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5f12bd77-5182-4099-b3b2-e29bf46eaf7d",
+    "data": [
+      {
+        "text": "bpm up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3a79fd5b-3f80-4cfd-be8c-37cfef051b4a",
+    "data": [
+      {
+        "text": "make it faster by ",
+        "userDefined": false
+      },
+      {
+        "text": "15%",
+        "alias": "percentage",
+        "meta": "@sys.percentage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d7e32517-af31-4491-86d2-14f342cd829e",
+    "data": [
+      {
+        "text": "increase bpm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "58846495-d5d7-4733-b368-90f9a4a30e59",
+    "data": [
+      {
+        "text": "increase bpm by ",
+        "userDefined": false
+      },
+      {
+        "text": "15%",
+        "alias": "percentage",
+        "meta": "@sys.percentage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e23b9b41-bdb2-4565-a698-38cfc7955ce7",
+    "data": [
+      {
+        "text": "make it ",
+        "userDefined": false
+      },
+      {
+        "text": "15%",
+        "alias": "percentage",
+        "meta": "@sys.percentage",
+        "userDefined": false
+      },
+      {
+        "text": " faster",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c34cd282-556c-4850-8fde-3b4eaf57bf25",
+    "data": [
+      {
+        "text": "play it faster by ",
+        "userDefined": false
+      },
+      {
+        "text": "10%",
+        "alias": "percentage",
+        "meta": "@sys.percentage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "49431098-4d27-43ca-9a09-dc45219b848a",
+    "data": [
+      {
+        "text": "play it faster",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1fc17846-9d0a-44ea-94aa-869bd9a7a5a8",
+    "data": [
+      {
+        "text": "increase speed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4f7fe4ad-8a4c-4bab-a2a3-a0dd5e23e5cf",
+    "data": [
+      {
+        "text": "speed it up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "38f2c2f8-d26b-4f86-99b0-7bb79cd2d2ac",
+    "data": [
+      {
+        "text": "make it faster",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

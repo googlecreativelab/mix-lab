@@ -1,0 +1,1315 @@
+[
+  {
+    "value": "bass",
+    "synonyms": [
+      "bass",
+      "base",
+      "database",
+      "at a base",
+      "bassline",
+      "base line",
+      "baseline",
+      "space",
+      "babe",
+      "beast",
+      "based"
+    ]
+  },
+  {
+    "value": "electric upright bass",
+    "synonyms": [
+      "electric upright bass"
+    ]
+  },
+  {
+    "value": "double bass",
+    "synonyms": [
+      "double bass"
+    ]
+  },
+  {
+    "value": "banjolin",
+    "synonyms": [
+      "banjolin"
+    ]
+  },
+  {
+    "value": "washtub bass",
+    "synonyms": [
+      "washtub bass"
+    ]
+  },
+  {
+    "value": "acoustic guitar",
+    "synonyms": [
+      "acoustic guitar"
+    ]
+  },
+  {
+    "value": "12-string guitar",
+    "synonyms": [
+      "12-string guitar",
+      "12 string guitar",
+      "12 string"
+    ]
+  },
+  {
+    "value": "banjitar",
+    "synonyms": [
+      "banjitar"
+    ]
+  },
+  {
+    "value": "electric fretless guitar",
+    "synonyms": [
+      "electric fretless guitar"
+    ]
+  },
+  {
+    "value": "electric bass guitar",
+    "synonyms": [
+      "electric bass guitar"
+    ]
+  },
+  {
+    "value": "acoustic bass guitar",
+    "synonyms": [
+      "acoustic bass guitar"
+    ]
+  },
+  {
+    "value": "6-string guitar",
+    "synonyms": [
+      "6-string guitar",
+      "6 string guitar",
+      "6 string",
+      "six stringer"
+    ]
+  },
+  {
+    "value": "five-string banjo",
+    "synonyms": [
+      "five-string banjo"
+    ]
+  },
+  {
+    "value": "keyboard bass",
+    "synonyms": [
+      "keyboard bass"
+    ]
+  },
+  {
+    "value": "bass guitar",
+    "synonyms": [
+      "bass guitar",
+      "bass"
+    ]
+  },
+  {
+    "value": "fretless bass",
+    "synonyms": [
+      "fretless bass"
+    ]
+  },
+  {
+    "value": "acoustic fretless guitar",
+    "synonyms": [
+      "acoustic fretless guitar"
+    ]
+  },
+  {
+    "value": "archlute",
+    "synonyms": [
+      "archlute"
+    ]
+  },
+  {
+    "value": "bass synthesizer",
+    "synonyms": [
+      "bass synthesizer",
+      "bass synth"
+    ]
+  },
+  {
+    "value": "guitar",
+    "synonyms": [
+      "guitar"
+    ]
+  },
+  {
+    "value": "upright bass",
+    "synonyms": [
+      "upright bass",
+      "stand-up bass",
+      "stand up bass",
+      "standup bass"
+    ]
+  },
+  {
+    "value": "archtop guitar",
+    "synonyms": [
+      "archtop guitar"
+    ]
+  },
+  {
+    "value": "four-string banjo",
+    "synonyms": [
+      "four-string banjo"
+    ]
+  },
+  {
+    "value": "classical guitar",
+    "synonyms": [
+      "classical guitar",
+      "nylon guitar"
+    ]
+  },
+  {
+    "value": "guitalele",
+    "synonyms": [
+      "guitalele"
+    ]
+  },
+  {
+    "value": "electric sitar",
+    "synonyms": [
+      "electric sitar"
+    ]
+  },
+  {
+    "value": "banjo-ukelele",
+    "synonyms": [
+      "banjo-ukelele",
+      "banjo ukulele"
+    ]
+  },
+  {
+    "value": "bandura",
+    "synonyms": [
+      "bandura"
+    ]
+  },
+  {
+    "value": "banjo",
+    "synonyms": [
+      "banjo"
+    ]
+  },
+  {
+    "value": "electric guitar",
+    "synonyms": [
+      "electric guitar"
+    ]
+  },
+  {
+    "value": "steel-string guitar",
+    "synonyms": [
+      "steel-string guitar"
+    ]
+  },
+  {
+    "value": "pedal steel guitar",
+    "synonyms": [
+      "pedal steel guitar"
+    ]
+  },
+  {
+    "value": "guitar synthesizer",
+    "synonyms": [
+      "guitar synthesizer",
+      "guitar synth"
+    ]
+  },
+  {
+    "value": "bells",
+    "synonyms": [
+      "bells"
+    ]
+  },
+  {
+    "value": "mandolin",
+    "synonyms": [
+      "mandolin"
+    ]
+  },
+  {
+    "value": "hawaiian guitar",
+    "synonyms": [
+      "hawaiian guitar"
+    ]
+  },
+  {
+    "value": "congas",
+    "synonyms": [
+      "congas"
+    ]
+  },
+  {
+    "value": "cymbals",
+    "synonyms": [
+      "cymbals"
+    ]
+  },
+  {
+    "value": "nylon guitar",
+    "synonyms": [
+      "nylon guitar"
+    ]
+  },
+  {
+    "value": "gongs",
+    "synonyms": [
+      "gongs"
+    ]
+  },
+  {
+    "value": "drum machine",
+    "synonyms": [
+      "electronic drum set",
+      "electronic drum kit",
+      "electronic drums",
+      "drum machine",
+      "808"
+    ]
+  },
+  {
+    "value": "harp guitar",
+    "synonyms": [
+      "harp guitar"
+    ]
+  },
+  {
+    "value": "hi-hat",
+    "synonyms": [
+      "hi-hat",
+      "high hat",
+      "hihat"
+    ]
+  },
+  {
+    "value": "claves",
+    "synonyms": [
+      "claves"
+    ]
+  },
+  {
+    "value": "bass drum",
+    "synonyms": [
+      "bass drum"
+    ]
+  },
+  {
+    "value": "cylindrical drum",
+    "synonyms": [
+      "cylindrical drum"
+    ]
+  },
+  {
+    "value": "chime bar",
+    "synonyms": [
+      "chime bar"
+    ]
+  },
+  {
+    "value": "tenor banjo",
+    "synonyms": [
+      "tenor banjo",
+      "banjo"
+    ]
+  },
+  {
+    "value": "sitar",
+    "synonyms": [
+      "sitar"
+    ]
+  },
+  {
+    "value": "bongos",
+    "synonyms": [
+      "bongos"
+    ]
+  },
+  {
+    "value": "dobro",
+    "synonyms": [
+      "lap steel guitar",
+      "slide guitar",
+      "lap guitar",
+      "electric lap steel guitar",
+      "dobro"
+    ]
+  },
+  {
+    "value": "chimes triangle",
+    "synonyms": [
+      "chimes triangle"
+    ]
+  },
+  {
+    "value": "drums",
+    "synonyms": [
+      "drums",
+      "beat",
+      "drum",
+      "beats",
+      "percussion",
+      "percussions"
+    ]
+  },
+  {
+    "value": "mandoguitar",
+    "synonyms": [
+      "mandoguitar"
+    ]
+  },
+  {
+    "value": "lute",
+    "synonyms": [
+      "lute"
+    ]
+  },
+  {
+    "value": "steel guitar",
+    "synonyms": [
+      "steel guitar"
+    ]
+  },
+  {
+    "value": "ukelele",
+    "synonyms": [
+      "ukelele",
+      "ukulele",
+      "uke"
+    ]
+  },
+  {
+    "value": "table steel guitar",
+    "synonyms": [
+      "table steel guitar"
+    ]
+  },
+  {
+    "value": "handclaps",
+    "synonyms": [
+      "handclaps"
+    ]
+  },
+  {
+    "value": "finger cymbals",
+    "synonyms": [
+      "finger cymbals",
+      "Castanets"
+    ]
+  },
+  {
+    "value": "body percussion",
+    "synonyms": [
+      "body percussion"
+    ]
+  },
+  {
+    "value": "chamber organ",
+    "synonyms": [
+      "chamber organ",
+      "chamber oregon",
+      "gospel organ"
+    ]
+  },
+  {
+    "value": "rattle",
+    "synonyms": [
+      "rattle"
+    ]
+  },
+  {
+    "value": "tenor guitar",
+    "synonyms": [
+      "tenor guitar"
+    ]
+  },
+  {
+    "value": "drumset",
+    "synonyms": [
+      "drumset"
+    ]
+  },
+  {
+    "value": "dulcitone",
+    "synonyms": [
+      "dulcitone"
+    ]
+  },
+  {
+    "value": "washboard",
+    "synonyms": [
+      "washboard"
+    ]
+  },
+  {
+    "value": "wood block",
+    "synonyms": [
+      "wood block"
+    ]
+  },
+  {
+    "value": "shakers",
+    "synonyms": [
+      "shakers"
+    ]
+  },
+  {
+    "value": "tambourine",
+    "synonyms": [
+      "tambourine"
+    ]
+  },
+  {
+    "value": "bagpipe",
+    "synonyms": [
+      "bagpipe"
+    ]
+  },
+  {
+    "value": "piano",
+    "synonyms": [
+      "piano"
+    ]
+  },
+  {
+    "value": "glass harp",
+    "synonyms": [
+      "glass harp"
+    ]
+  },
+  {
+    "value": "claviola",
+    "synonyms": [
+      "claviola"
+    ]
+  },
+  {
+    "value": "analog synthesizer",
+    "synonyms": [
+      "analog synthesizer",
+      "analog synth",
+      "modular synth",
+      "modular synthesizer"
+    ]
+  },
+  {
+    "value": "clavinet",
+    "synonyms": [
+      "clavinet",
+      "clav",
+      "electric clavinet"
+    ]
+  },
+  {
+    "value": "electric piano",
+    "synonyms": [
+      "electric piano",
+      "electronic piano",
+      "e-piano"
+    ]
+  },
+  {
+    "value": "cowbell",
+    "synonyms": [
+      "cowbell"
+    ]
+  },
+  {
+    "value": "concertina",
+    "synonyms": [
+      "concertina"
+    ]
+  },
+  {
+    "value": "wind chime",
+    "synonyms": [
+      "wind chime"
+    ]
+  },
+  {
+    "value": "clavichord",
+    "synonyms": [
+      "clavichord"
+    ]
+  },
+  {
+    "value": "grand piano",
+    "synonyms": [
+      "grand piano"
+    ]
+  },
+  {
+    "value": "pipe organ",
+    "synonyms": [
+      "pipe organ",
+      "church organ",
+      "pipe oregon",
+      "gospal organ"
+    ]
+  },
+  {
+    "value": "marimba",
+    "synonyms": [
+      "marimba"
+    ]
+  },
+  {
+    "value": "harmonium",
+    "synonyms": [
+      "harmonium"
+    ]
+  },
+  {
+    "value": "mellotron",
+    "synonyms": [
+      "mellotron"
+    ]
+  },
+  {
+    "value": "maracas",
+    "synonyms": [
+      "maracas"
+    ]
+  },
+  {
+    "value": "timpani",
+    "synonyms": [
+      "timpani"
+    ]
+  },
+  {
+    "value": "tom-tom",
+    "synonyms": [
+      "tom-tom"
+    ]
+  },
+  {
+    "value": "barrel organ",
+    "synonyms": [
+      "barrel organ",
+      "barrel oregon"
+    ]
+  },
+  {
+    "value": "accordion",
+    "synonyms": [
+      "accordion"
+    ]
+  },
+  {
+    "value": "electronic organ",
+    "synonyms": [
+      "electronic organ",
+      "organ",
+      "electronic oregon",
+      "oregon"
+    ]
+  },
+  {
+    "value": "keytar",
+    "synonyms": [
+      "keytar"
+    ]
+  },
+  {
+    "value": "strings",
+    "synonyms": [
+      "strings"
+    ]
+  },
+  {
+    "value": "glockenspiel",
+    "synonyms": [
+      "glockenspiel"
+    ]
+  },
+  {
+    "value": "keyboard",
+    "synonyms": [
+      "keyboard",
+      "keys",
+      "piano"
+    ]
+  },
+  {
+    "value": "pedal piano",
+    "synonyms": [
+      "pedal piano"
+    ]
+  },
+  {
+    "value": "sampler",
+    "synonyms": [
+      "sampler"
+    ]
+  },
+  {
+    "value": "toy piano",
+    "synonyms": [
+      "toy piano"
+    ]
+  },
+  {
+    "value": "alto violin",
+    "synonyms": [
+      "alto violin"
+    ]
+  },
+  {
+    "value": "cello",
+    "synonyms": [
+      "cello"
+    ]
+  },
+  {
+    "value": "harpsichord",
+    "synonyms": [
+      "harpsichord"
+    ]
+  },
+  {
+    "value": "moog",
+    "synonyms": [
+      "moog",
+      "moog synthesizer",
+      "moog synth"
+    ]
+  },
+  {
+    "value": "wurlitzer electric piano",
+    "synonyms": [
+      "wurlitzer electric piano",
+      "wurlitzer",
+      "wurly",
+      "wurlitzer piano"
+    ]
+  },
+  {
+    "value": "harp",
+    "synonyms": [
+      "harp",
+      "heart"
+    ]
+  },
+  {
+    "value": "upright piano",
+    "synonyms": [
+      "upright piano"
+    ]
+  },
+  {
+    "value": "omnichord",
+    "synonyms": [
+      "omnichord"
+    ]
+  },
+  {
+    "value": "piano accordion",
+    "synonyms": [
+      "piano accordion"
+    ]
+  },
+  {
+    "value": "ondes martenot",
+    "synonyms": [
+      "ondes martenot"
+    ]
+  },
+  {
+    "value": "aeolian harp",
+    "synonyms": [
+      "aeolian harp"
+    ]
+  },
+  {
+    "value": "reed organ",
+    "synonyms": [
+      "reed organ",
+      "reed oregon"
+    ]
+  },
+  {
+    "value": "violin",
+    "synonyms": [
+      "violin"
+    ]
+  },
+  {
+    "value": "melodica",
+    "synonyms": [
+      "melodica"
+    ]
+  },
+  {
+    "value": "electric cello",
+    "synonyms": [
+      "electric cello"
+    ]
+  },
+  {
+    "value": "vibraphone",
+    "synonyms": [
+      "vibraphone"
+    ]
+  },
+  {
+    "value": "autoharp",
+    "synonyms": [
+      "autoharp"
+    ]
+  },
+  {
+    "value": "baritone saxophone",
+    "synonyms": [
+      "baritone saxophone",
+      "baritone sax"
+    ]
+  },
+  {
+    "value": "xylophone",
+    "synonyms": [
+      "xylophone"
+    ]
+  },
+  {
+    "value": "hammond organ",
+    "synonyms": [
+      "hammond organ",
+      "b3",
+      "b3 organ",
+      "church organ",
+      "hammond oregon",
+      "gospel organ"
+    ]
+  },
+  {
+    "value": "rhodes piano",
+    "synonyms": [
+      "rhodes piano",
+      "rhodes",
+      "rhodes electric piano",
+      "fender rhodes"
+    ]
+  },
+  {
+    "value": "concert harp",
+    "synonyms": [
+      "concert harp"
+    ]
+  },
+  {
+    "value": "theremin",
+    "synonyms": [
+      "theremin"
+    ]
+  },
+  {
+    "value": "synthesizer",
+    "synonyms": [
+      "synthesizer",
+      "synth",
+      "since"
+    ]
+  },
+  {
+    "value": "vocoder",
+    "synonyms": [
+      "vocoder"
+    ]
+  },
+  {
+    "value": "soprano violin",
+    "synonyms": [
+      "soprano violin"
+    ]
+  },
+  {
+    "value": "basset horn",
+    "synonyms": [
+      "basset horn",
+      "basset horns"
+    ]
+  },
+  {
+    "value": "alto horn",
+    "synonyms": [
+      "alto horn",
+      "alto horns"
+    ]
+  },
+  {
+    "value": "clarinet",
+    "synonyms": [
+      "clarinet"
+    ]
+  },
+  {
+    "value": "contrabass flute",
+    "synonyms": [
+      "contrabass flute"
+    ]
+  },
+  {
+    "value": "bass trumpet",
+    "synonyms": [
+      "bass trumpet"
+    ]
+  },
+  {
+    "value": "bass clarinet",
+    "synonyms": [
+      "bass clarinet"
+    ]
+  },
+  {
+    "value": "bass oboe",
+    "synonyms": [
+      "bass oboe"
+    ]
+  },
+  {
+    "value": "bass harmonica",
+    "synonyms": [
+      "bass harmonica"
+    ]
+  },
+  {
+    "value": "bass saxophone",
+    "synonyms": [
+      "bass saxophone",
+      "bass sax"
+    ]
+  },
+  {
+    "value": "baritone horn",
+    "synonyms": [
+      "baritone horn",
+      "baritone horns"
+    ]
+  },
+  {
+    "value": "electric harp",
+    "synonyms": [
+      "electric harp"
+    ]
+  },
+  {
+    "value": "folk harp",
+    "synonyms": [
+      "folk harp"
+    ]
+  },
+  {
+    "value": "contrabass saxophone",
+    "synonyms": [
+      "contrabass saxophone",
+      "contrabass sax"
+    ]
+  },
+  {
+    "value": "bassoon",
+    "synonyms": [
+      "bassoon"
+    ]
+  },
+  {
+    "value": "brass",
+    "synonyms": [
+      "brass"
+    ]
+  },
+  {
+    "value": "bass flute",
+    "synonyms": [
+      "bass flute"
+    ]
+  },
+  {
+    "value": "chromatic harmonica",
+    "synonyms": [
+      "chromatic harmonica"
+    ]
+  },
+  {
+    "value": "conch",
+    "synonyms": [
+      "conch"
+    ]
+  },
+  {
+    "value": "harmonica",
+    "synonyms": [
+      "harmonica"
+    ]
+  },
+  {
+    "value": "bass trombone",
+    "synonyms": [
+      "bass trombone"
+    ]
+  },
+  {
+    "value": "wind",
+    "synonyms": [
+      "wind"
+    ]
+  },
+  {
+    "value": "basset clarinet",
+    "synonyms": [
+      "basset clarinet"
+    ]
+  },
+  {
+    "value": "alto recorder",
+    "synonyms": [
+      "alto recorder"
+    ]
+  },
+  {
+    "value": "contrabass clarinet",
+    "synonyms": [
+      "contrabass clarinet"
+    ]
+  },
+  {
+    "value": "bass recorder",
+    "synonyms": [
+      "bass recorder"
+    ]
+  },
+  {
+    "value": "contrabassoon",
+    "synonyms": [
+      "contrabassoon"
+    ]
+  },
+  {
+    "value": "contrabass recorder",
+    "synonyms": [
+      "contrabass recorder"
+    ]
+  },
+  {
+    "value": "viola",
+    "synonyms": [
+      "viola"
+    ]
+  },
+  {
+    "value": "fiddle",
+    "synonyms": [
+      "fiddle"
+    ]
+  },
+  {
+    "value": "baroque trumpet",
+    "synonyms": [
+      "baroque trumpet"
+    ]
+  },
+  {
+    "value": "concert flute",
+    "synonyms": [
+      "concert flute"
+    ]
+  },
+  {
+    "value": "tenor violin",
+    "synonyms": [
+      "tenor violin"
+    ]
+  },
+  {
+    "value": "treble violin",
+    "synonyms": [
+      "treble violin"
+    ]
+  },
+  {
+    "value": "bugle",
+    "synonyms": [
+      "bugle"
+    ]
+  },
+  {
+    "value": "pan flute",
+    "synonyms": [
+      "pan flute"
+    ]
+  },
+  {
+    "value": "nose flute",
+    "synonyms": [
+      "nose flute"
+    ]
+  },
+  {
+    "value": "subcontrabass recorder",
+    "synonyms": [
+      "subcontrabass recorder"
+    ]
+  },
+  {
+    "value": "soprano flute",
+    "synonyms": [
+      "soprano flute"
+    ]
+  },
+  {
+    "value": "didgeridoo",
+    "synonyms": [
+      "didgeridoo"
+    ]
+  },
+  {
+    "value": "reeds",
+    "synonyms": [
+      "reeds"
+    ]
+  },
+  {
+    "value": "mouth organ",
+    "synonyms": [
+      "mouth organ",
+      "mouth oregon"
+    ]
+  },
+  {
+    "value": "horns",
+    "synonyms": [
+      "horn",
+      "horns",
+      "horn section",
+      "horn ensemble",
+      "horns"
+    ]
+  },
+  {
+    "value": "pocket trumpet",
+    "synonyms": [
+      "pocket trumpet"
+    ]
+  },
+  {
+    "value": "soprano clarinet",
+    "synonyms": [
+      "soprano clarinet"
+    ]
+  },
+  {
+    "value": "double reed",
+    "synonyms": [
+      "double reed"
+    ]
+  },
+  {
+    "value": "piccolo trumpet",
+    "synonyms": [
+      "piccolo trumpet"
+    ]
+  },
+  {
+    "value": "slide whistle",
+    "synonyms": [
+      "slide whistle"
+    ]
+  },
+  {
+    "value": "single reed",
+    "synonyms": [
+      "single reed"
+    ]
+  },
+  {
+    "value": "nose whistle",
+    "synonyms": [
+      "nose whistle"
+    ]
+  },
+  {
+    "value": "oboe",
+    "synonyms": [
+      "oboe"
+    ]
+  },
+  {
+    "value": "piccolo",
+    "synonyms": [
+      "piccolo"
+    ]
+  },
+  {
+    "value": "tenor horn",
+    "synonyms": [
+      "tenor horn",
+      "tenor horns"
+    ]
+  },
+  {
+    "value": "saxophone",
+    "synonyms": [
+      "saxophone",
+      "sax"
+    ]
+  },
+  {
+    "value": "english horn",
+    "synonyms": [
+      "english horn",
+      "english horns"
+    ]
+  },
+  {
+    "value": "french horn",
+    "synonyms": [
+      "french horn",
+      "french horns"
+    ]
+  },
+  {
+    "value": "tenor saxophone",
+    "synonyms": [
+      "tenor saxophone",
+      "tenor sax"
+    ]
+  },
+  {
+    "value": "indian bamboo flutes",
+    "synonyms": [
+      "indian bamboo flutes"
+    ]
+  },
+  {
+    "value": "soprano recorder",
+    "synonyms": [
+      "soprano recorder"
+    ]
+  },
+  {
+    "value": "recorder",
+    "synonyms": [
+      "recorder"
+    ]
+  },
+  {
+    "value": "ocarina",
+    "synonyms": [
+      "ocarina"
+    ]
+  },
+  {
+    "value": "flute",
+    "synonyms": [
+      "flute"
+    ]
+  },
+  {
+    "value": "trumpet",
+    "synonyms": [
+      "trumpet"
+    ]
+  },
+  {
+    "value": "piccolo oboe",
+    "synonyms": [
+      "piccolo oboe"
+    ]
+  },
+  {
+    "value": "duck call",
+    "synonyms": [
+      "duck call"
+    ]
+  },
+  {
+    "value": "slide brass instruments",
+    "synonyms": [
+      "slide brass instruments"
+    ]
+  },
+  {
+    "value": "soprano saxophone",
+    "synonyms": [
+      "soprano saxophone"
+    ]
+  },
+  {
+    "value": "e-flat clarinet",
+    "synonyms": [
+      "e-flat clarinet"
+    ]
+  },
+  {
+    "value": "woodwind",
+    "synonyms": [
+      "woodwind"
+    ]
+  },
+  {
+    "value": "wind instruments",
+    "synonyms": [
+      "wind instruments"
+    ]
+  },
+  {
+    "value": "treble recorder",
+    "synonyms": [
+      "treble recorder"
+    ]
+  },
+  {
+    "value": "tenor trombone",
+    "synonyms": [
+      "tenor trombone"
+    ]
+  },
+  {
+    "value": "tuba",
+    "synonyms": [
+      "tuba"
+    ]
+  },
+  {
+    "value": "tenor recorder",
+    "synonyms": [
+      "tenor recorder"
+    ]
+  },
+  {
+    "value": "treble flute",
+    "synonyms": [
+      "treble flute"
+    ]
+  },
+  {
+    "value": "valve trombone",
+    "synonyms": [
+      "valve trombone"
+    ]
+  },
+  {
+    "value": "whistle",
+    "synonyms": [
+      "whistle"
+    ]
+  },
+  {
+    "value": "trombone",
+    "synonyms": [
+      "trombone",
+      "bone"
+    ]
+  },
+  {
+    "value": "dulcimer",
+    "synonyms": [
+      "dulcimer",
+      "hammer dulcimer"
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+<div
+  class="social"
+  [ngClass]="{'active': (stems)?.length > 0}">
+  <div
+    [@slide]="slideState"
+    class="icon-wrap"
+    [ngClass]="{'active': slideState === 'out'}">
+    <a
+      class="icon link"
+      (click)="share('link')"
+      angulartics2On="click"
+      angularticsEvent="Click"
+      angularticsCategory="Share_Link"
+      [inlineSVG]="'/assets/images/icon-link.svg'">
+    </a>
+    <a
+      class="icon twitter"
+      (click)="share('twitter')"
+      angulartics2On="click"
+      angularticsEvent="Click"
+      angularticsCategory="Share_Twitter"
+      [inlineSVG]="'/assets/images/icon-twitter.svg'">
+    </a>
+    <a
+      class="icon facebook"
+      (click)="share('facebook')"
+      angulartics2On="click"
+      angularticsEvent="Click"
+      angularticsCategory="Share_Facebook"
+      [inlineSVG]="'/assets/images/icon-facebook.svg'">
+    </a>
+    <a
+      class="icon google"
+      (click)="share('google')"
+      angulartics2On="click"
+      angularticsEvent="Click"
+      angularticsCategory="Share_Google"
+      [inlineSVG]="'/assets/images/icon-google.svg'">
+    </a>
+  </div>
+  <span
+    (click)="toggleSocial()"
+    [ngClass]="{'inactive': slideState === 'out'}"
+    [@fade]="fadeState"
+    angulartics2On="click"
+    angularticsEvent="Click"
+    angularticsCategory="Share_Mix"
+    class="text">
+    Share this Mix
+  </span>
+  <app-loader></app-loader>
+</div>
+<app-tooltip
+  (click)="copyLink()"
+  [ngClass]="{'copied': copied}"
+  [@peek]="peekState"
+  [tooltip]="tooltip">
+</app-tooltip>

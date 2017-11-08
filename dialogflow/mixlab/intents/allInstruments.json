@@ -1,0 +1,48 @@
+{
+  "id": "7ff8421f-4dbe-4e85-880d-b3d360f63b2f",
+  "name": "allInstruments",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "allInstruments",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "339b1933-996b-432e-b483-5070c29a84ac",
+          "dataType": "@genre",
+          "name": "genres",
+          "value": "$genres",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Here ya go!"
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "What a great idea!"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508965964,
+  "fallbackIntent": false,
+  "events": []
+}

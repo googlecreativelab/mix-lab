@@ -1,0 +1,84 @@
+@import "../../../assets/scss/shared";
+
+.about {
+  @include padding(null $bumper-mobile $bumper-mobile);
+  @include position(fixed, 0 null null 0);
+  background-color: rgba($black, 0.7);
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  z-index: 99999;
+  user-select: text;
+
+  @include grid-media($m) {
+    @include padding(null $bumper $bumper);
+  }
+}
+
+.about-inner {
+  @include margin($bumper auto null);
+  @include padding(null $bumper-mobile);
+  max-width: 688px;
+
+  @include grid-media($m) {
+    @include margin($spacing-xl auto null);
+    @include padding(null $bumper);
+  }
+}
+
+.section {
+  & + & {
+    margin-top: $spacing-s;
+  }
+}
+
+.header {
+  @extend %cta;
+  color: $white;
+  margin-bottom: $bumper;
+  text-align: center;
+}
+
+.description {
+  @extend %body;
+  color: $white;
+
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
+}
+
+.video-wrap {
+  @include responsive-wrap;
+  background-color: $black;
+  margin-bottom: $bumper;
+  cursor: pointer;
+
+  /deep/ iframe {
+    @include position(absolute, 0 null null 0);
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.play-button {
+  @include align-all(absolute);
+  @include svg(80px, 80px, $white);
+  align-items: center;
+  background-color: $lightGray;
+  border-radius: 50%;
+  display: flex;
+  height: $spacing-l;
+  justify-content: center;
+  padding: 7px;
+  width: $spacing-l;
+  z-index: 99;
+
+  @include grid-media($s) {
+    height: $spacing-xl;
+    padding: 15px;
+    width: $spacing-xl;
+  }
+}

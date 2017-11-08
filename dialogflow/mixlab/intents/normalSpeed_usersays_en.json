@@ -1,0 +1,169 @@
+[
+  {
+    "id": "29e7ba80-10be-4a0a-8198-d3120dbf3689",
+    "data": [
+      {
+        "text": "clear speed update",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ed1eb2b6-1c37-4c92-af07-c8810fbcff30",
+    "data": [
+      {
+        "text": "clear bpm update",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3485fb01-4064-4064-aca0-7c983d305585",
+    "data": [
+      {
+        "text": "clear speed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "14b77737-fbe2-4eae-a975-dd606ae50b5a",
+    "data": [
+      {
+        "text": "make it ",
+        "userDefined": false
+      },
+      {
+        "text": "normal",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " again",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7b8b130c-1691-4310-96d6-0c17e1891555",
+    "data": [
+      {
+        "text": "make it ",
+        "userDefined": false
+      },
+      {
+        "text": "normal",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " speed again",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3a811f12-a92f-4029-be02-82698bc554e3",
+    "data": [
+      {
+        "text": "back to regular speed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "536ceb28-2451-43d1-b490-c5c0961ff930",
+    "data": [
+      {
+        "text": "back to normal speed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8aedac3b-2f0d-4def-b596-77c726e27a99",
+    "data": [
+      {
+        "text": "original bpm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0d30cec7-34f5-4d8b-86bc-e81bde65f3e0",
+    "data": [
+      {
+        "text": "normal",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tempo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4d5e33b7-db92-48a2-8c9e-97d4de11947b",
+    "data": [
+      {
+        "text": "regular speed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dab4f8d1-082b-4a6b-9a55-53850be52fb6",
+    "data": [
+      {
+        "text": "normal speed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c342d3ed-cc1e-40be-8bb5-89d68ca16904",
+    "data": [
+      {
+        "text": "back to original speed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

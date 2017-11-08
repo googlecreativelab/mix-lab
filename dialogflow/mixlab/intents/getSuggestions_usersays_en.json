@@ -1,0 +1,157 @@
+[
+  {
+    "id": "f3d0f5ef-433f-477f-aec8-17d8cc380362",
+    "data": [
+      {
+        "text": "help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509393464
+  },
+  {
+    "id": "bd63f786-e47d-4b21-b960-f73f30e81ad1",
+    "data": [
+      {
+        "text": "what can i play",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509393398
+  },
+  {
+    "id": "e41efd10-4c0c-4dcb-8de8-b8150ea7e625",
+    "data": [
+      {
+        "text": "what should i play",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509393398
+  },
+  {
+    "id": "44814cc0-84f4-4d9c-b9c5-648134987427",
+    "data": [
+      {
+        "text": "what can i say",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6c5b6f03-bd35-4aa0-b1a2-64f748d3fce3",
+    "data": [
+      {
+        "text": "what else can i say",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "a21469d5-665f-4f74-aed7-8bd85efb963b",
+    "data": [
+      {
+        "text": "can you help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "53685c4b-a3e0-46f1-8b15-72ffa901f57c",
+    "data": [
+      {
+        "text": "what kind of suggestions do you have",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ecec78e7-6fd8-4571-8827-dca35a823095",
+    "data": [
+      {
+        "text": "what kind of things can you do",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e9295313-2119-4b3c-8833-40dbabc28225",
+    "data": [
+      {
+        "text": "what can you do",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc6265f6-3ca3-4502-84fc-542f5d269c62",
+    "data": [
+      {
+        "text": "i need help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e81c7389-1192-4fdc-a1d4-a42900a44bae",
+    "data": [
+      {
+        "text": "give me a suggestion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2a3ae397-f09f-4cf1-8470-18d180eeaad3",
+    "data": [
+      {
+        "text": "help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c7148343-0046-4fdc-8107-dd1dcee408a1",
+    "data": [
+      {
+        "text": "give me suggestions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

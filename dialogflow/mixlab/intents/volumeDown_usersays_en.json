@@ -1,0 +1,279 @@
+[
+  {
+    "id": "aa8a269f-a4a0-46e6-beb8-7af36b4d0c9a",
+    "data": [
+      {
+        "text": "lower ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c0085459-28a4-4876-ad90-28d49633659e",
+    "data": [
+      {
+        "text": "turn it all the way down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509116549
+  },
+  {
+    "id": "a252388a-e488-4047-aad1-256e9bfd3cf4",
+    "data": [
+      {
+        "text": "Turn it down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509116549
+  },
+  {
+    "id": "0fc46e33-2cd5-4827-be88-1c886ace7085",
+    "data": [
+      {
+        "text": "play the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      },
+      {
+        "text": " softly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509116549
+  },
+  {
+    "id": "d26cd18e-ff71-417f-8b0e-ad87fb580583",
+    "data": [
+      {
+        "text": "make the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      },
+      {
+        "text": " softer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509116549
+  },
+  {
+    "id": "c45b2f7a-ff44-40d2-9096-0421c51fc753",
+    "data": [
+      {
+        "text": "lower the volume of the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509116549
+  },
+  {
+    "id": "9c26afd0-be05-466f-bfa9-732a756e95a3",
+    "data": [
+      {
+        "text": "Quieter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509116549
+  },
+  {
+    "id": "c5e34d11-5e0a-4b03-9f73-680d86040c8e",
+    "data": [
+      {
+        "text": "Softer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509116549
+  },
+  {
+    "id": "4053d2ca-260a-41f7-8259-86c7b1200b6d",
+    "data": [
+      {
+        "text": "Make it softer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509116549
+  },
+  {
+    "id": "93cc6109-c8b4-4507-b130-d7030efc700e",
+    "data": [
+      {
+        "text": "Play more softly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509116549
+  },
+  {
+    "id": "7987bf70-dd4a-4add-8d94-b9a6a299f77c",
+    "data": [
+      {
+        "text": "Play softly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509116549
+  },
+  {
+    "id": "ded745a1-3db3-41be-b97f-da6d0f9d6fad",
+    "data": [
+      {
+        "text": "Play more quietly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509116549
+  },
+  {
+    "id": "77b1f97a-e55c-4ec8-b7ee-c840a85d122b",
+    "data": [
+      {
+        "text": "quiet the ",
+        "userDefined": false
+      },
+      {
+        "text": "drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c0747fab-a671-4fd5-b9a2-8f142e2f5435",
+    "data": [
+      {
+        "text": "quiet down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9893704f-a622-411b-8344-681b568559a5",
+    "data": [
+      {
+        "text": "lower the volume",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "398e032e-4533-450c-90dd-a0e439bfa328",
+    "data": [
+      {
+        "text": "volume down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e7c49526-d4af-4d7f-a08a-f991629acf92",
+    "data": [
+      {
+        "text": "Turn down the ",
+        "userDefined": false
+      },
+      {
+        "text": "keyboard",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "566532b0-a6bf-4031-8a81-d654f870b505",
+    "data": [
+      {
+        "text": "Lower the ",
+        "userDefined": false
+      },
+      {
+        "text": "bass",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "320da7bd-5175-4cf0-b566-ac609b7c499d",
+    "data": [
+      {
+        "text": "Make it quieter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

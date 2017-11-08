@@ -1,0 +1,93 @@
+# Copyright 2017 Google Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the 'License');
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an 'AS IS' BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /styles.css
+  static_files: static/styles.css
+  upload: static/styles.css
+  secure: always
+
+# scripts/css
+- url: /(.*\.(js|css))
+  static_files: static/\1
+  upload: static/(.*\.(js|css))
+  secure: always
+
+# image files
+- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png|svg))
+  static_files: static/\1
+  upload: static/(.*\.(bmp|gif|ico|jpeg|jpg|png|svg))
+  secure: always
+
+# media files
+- url: /(.*\.(mp3|m4a))
+  static_files: static/\1
+  upload: static/(.*\.(mp3|m4a))
+  secure: always
+
+- url: /assets/voice-button.html
+  static_files: static/assets/voice-button.html
+  upload: static/assets/voice-button.html
+  secure: always
+  login: admin
+
+- url: /assets/(.*\.(html))
+  static_files: static/assets/\1
+  upload: static/assets/(.*\.(html))
+  secure: always
+
+- url: /jam/.*
+  static_files: static/jam.html
+  upload: static/jam.html
+  secure: always
+  login: admin
+
+- url: /jam
+  static_files: static/jam.html
+  upload: static/jam.html
+  secure: always
+  login: admin
+
+- url: /
+  static_files: static/index.html
+  upload: static/index.html
+  secure: always
+  login: admin
+
+- url: /about
+  static_files: static/index.html
+  upload: static/index.html
+  secure: always
+  login: admin
+
+- url: /link?.*
+  static_files: static/index.html
+  upload: static/index.html
+  secure: always
+  login: admin
+
+skip_files:
+- ^.idea/.*
+- ^.git/.*
+- ^node_modules/.*
+- ^e2e/.*
+- ^(.*/)?.*\.DS_Store$
+- ^src/.*
+- ^style/.*
+- ^(.*/)?.*\.swp$

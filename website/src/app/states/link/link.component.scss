@@ -1,0 +1,33 @@
+@import "../../../assets/scss/shared";
+
+:host {
+  @include position(fixed, 0 null null 0);
+  background: url('/assets/images/fallback.jpg') center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.link {
+  @include align-all(fixed);
+  @include padding(null $bumper-mobile);
+  overflow: hidden;
+  text-align: center;
+  color: $white;
+  width: 100%;
+}
+
+#value {
+  display: block;
+  font-size: 16px;
+  user-select: auto;
+}
+
+button {
+  @extend %button-outline;
+  background-color: rgba($white, 0.8);
+  display: inline-block;
+  outline: none;
+  margin-top: $bumper-mobile;
+}

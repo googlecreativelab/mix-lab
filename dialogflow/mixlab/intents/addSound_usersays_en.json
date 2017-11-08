@@ -1,0 +1,951 @@
+[
+  {
+    "id": "1ebef889-ac13-406d-8ec5-d265bddeb83a",
+    "data": [
+      {
+        "text": "drop a ",
+        "userDefined": false
+      },
+      {
+        "text": "beat",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e5f16ddb-2790-4b13-988a-abfcc171931a",
+    "data": [
+      {
+        "text": "at a ",
+        "userDefined": false
+      },
+      {
+        "text": "funky",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1508867357
+  },
+  {
+    "id": "c219ddf7-aefc-441d-b164-a7d2d9b4952c",
+    "data": [
+      {
+        "text": "give me a ",
+        "userDefined": false
+      },
+      {
+        "text": "funky",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "bass",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508858549
+  },
+  {
+    "id": "76c59aa8-2814-4343-bcda-8c0a3931006e",
+    "data": [
+      {
+        "text": "horse",
+        "alias": "sfx",
+        "meta": "@sfx",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507315803
+  },
+  {
+    "id": "2e33043e-3817-403e-a41d-c6543b7fc23a",
+    "data": [
+      {
+        "text": "give me a ",
+        "userDefined": false
+      },
+      {
+        "text": "dial up sound",
+        "alias": "sfx",
+        "meta": "@sfx",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508858549
+  },
+  {
+    "id": "6e7c5c2f-9084-4a13-9ca4-cb279789a872",
+    "data": [
+      {
+        "text": "how about a ",
+        "userDefined": false
+      },
+      {
+        "text": "dog barking",
+        "alias": "sfx",
+        "meta": "@sfx",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508858549
+  },
+  {
+    "id": "f48cc937-3c2e-4c4b-86f6-7cd7a61f4781",
+    "data": [
+      {
+        "text": "add an ",
+        "userDefined": false
+      },
+      {
+        "text": "alarm clock",
+        "alias": "sfx",
+        "meta": "@sfx",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508858549
+  },
+  {
+    "id": "e8aa88d3-4ad3-46dc-a55d-be96a3730808",
+    "data": [
+      {
+        "text": "gimme a ",
+        "userDefined": false
+      },
+      {
+        "text": "cowbell",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508858549
+  },
+  {
+    "id": "9d6179a7-9772-4f4e-8060-8ac88b4f77d5",
+    "data": [
+      {
+        "text": "add a ",
+        "userDefined": false
+      },
+      {
+        "text": "cowbell",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508858549
+  },
+  {
+    "id": "85a84b4c-4514-4631-8d93-b90f14ffee3b",
+    "data": [
+      {
+        "text": "crush it with a ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "solo",
+        "alias": "solo",
+        "meta": "@solo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508858549
+  },
+  {
+    "id": "dde3c352-b9ae-41df-a6c2-29d08dad8714",
+    "data": [
+      {
+        "text": "add a ",
+        "userDefined": false
+      },
+      {
+        "text": "rocking",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "electric guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "solo",
+        "alias": "solo",
+        "meta": "@solo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508858549
+  },
+  {
+    "id": "5d259d27-10a9-4d91-b5c3-fba047a3a336",
+    "data": [
+      {
+        "text": "give me a ",
+        "userDefined": false
+      },
+      {
+        "text": "bass",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508858549
+  },
+  {
+    "id": "2d59d49a-fa3f-4114-83aa-8d5d4476661b",
+    "data": [
+      {
+        "text": "Throw in some ",
+        "userDefined": false
+      },
+      {
+        "text": "funky",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "bass",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "419111a9-1e1c-40c9-a0f2-ab0813941cef",
+    "data": [
+      {
+        "text": "play a ",
+        "userDefined": false
+      },
+      {
+        "text": "funky",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "electric guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "81042180-5ecd-4dfa-b9a0-6e32e83998b2",
+    "data": [
+      {
+        "text": "Do a ",
+        "userDefined": false
+      },
+      {
+        "text": "keyboard",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "ec60cef8-9292-4fb5-892e-cdfecf7fbcca",
+    "data": [
+      {
+        "text": "Try a ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "c897106a-2cf2-4e37-9695-5fca089397eb",
+    "data": [
+      {
+        "text": "Change the ",
+        "userDefined": false
+      },
+      {
+        "text": "keyboard",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "fe97187e-4421-44fd-ad2d-188c3a633004",
+    "data": [
+      {
+        "text": "Let\u0027s start a ",
+        "userDefined": false
+      },
+      {
+        "text": "funk",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "f830cb7c-6dde-4267-a843-a2decb3c2dc1",
+    "data": [
+      {
+        "text": "Do a ",
+        "userDefined": false
+      },
+      {
+        "text": "weird",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "keyboard",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "288a8b93-b727-4b7d-a23c-c8a1e625cfd2",
+    "data": [
+      {
+        "text": "Add a ",
+        "userDefined": false
+      },
+      {
+        "text": "keyboard",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      },
+      {
+        "text": ", but make it ",
+        "userDefined": false
+      },
+      {
+        "text": "funky",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "43905765-2d65-4827-ac7d-ee6b89a3bce4",
+    "data": [
+      {
+        "text": "How about some ",
+        "userDefined": false
+      },
+      {
+        "text": "keyboards",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "37dc5539-23ba-4fe7-8a8f-c2c67cecfae2",
+    "data": [
+      {
+        "text": "What about some sick ",
+        "userDefined": false
+      },
+      {
+        "text": "drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "2de24cec-2518-484e-b51a-d29d1933e8e7",
+    "data": [
+      {
+        "text": "I need an awesome ",
+        "userDefined": false
+      },
+      {
+        "text": "keyboard",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1507734641
+  },
+  {
+    "id": "f030591c-99f9-40ea-80b6-e8b3d48a8aa8",
+    "data": [
+      {
+        "text": "Add a ",
+        "userDefined": false
+      },
+      {
+        "text": "piano",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "dcac10bf-668a-4a46-be66-fcc52e9f43f6",
+    "data": [
+      {
+        "text": "How to ",
+        "userDefined": false
+      },
+      {
+        "text": "funky",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "bass",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "ee2b780b-d82b-44ea-a9f9-88f90452fe39",
+    "data": [
+      {
+        "text": "Throw in some ",
+        "userDefined": false
+      },
+      {
+        "text": "Blues",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Bass",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "8715f928-ae22-4698-b8e0-0bea660aaabb",
+    "data": [
+      {
+        "text": "Throw in a ",
+        "userDefined": false
+      },
+      {
+        "text": "Country",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "6140f670-285e-4744-9b10-66e5b650bc81",
+    "data": [
+      {
+        "text": "Guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "605ff548-5e3e-4a1c-9f4f-142fc3010943",
+    "data": [
+      {
+        "text": "add ",
+        "userDefined": false
+      },
+      {
+        "text": "base",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "80b447d5-e1cc-4080-a8ce-bda717da3db5",
+    "data": [
+      {
+        "text": "I want some ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "1f4871a5-5265-4725-92c7-5e377cedaa56",
+    "data": [
+      {
+        "text": "Start a ",
+        "userDefined": false
+      },
+      {
+        "text": "Guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "90c720d8-b80f-44fb-883f-07a351044615",
+    "data": [
+      {
+        "text": "Play ",
+        "userDefined": false
+      },
+      {
+        "text": "Drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "0e93f716-2a1d-4b63-9696-e8637e89ed1a",
+    "data": [
+      {
+        "text": "how about a ",
+        "userDefined": false
+      },
+      {
+        "text": "metal",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " sounding ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "e21912eb-2c89-42b8-9f9e-7dd820bb6691",
+    "data": [
+      {
+        "text": "lets add a ",
+        "userDefined": false
+      },
+      {
+        "text": "funk",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507754379
+  },
+  {
+    "id": "843aa6ea-cc64-482b-bf21-12eeff278a5d",
+    "data": [
+      {
+        "text": "let me have a ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      },
+      {
+        "text": " that sounds ",
+        "userDefined": false
+      },
+      {
+        "text": "metal",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "bf24f4b8-0409-4db7-a42f-4399d4a99f33",
+    "data": [
+      {
+        "text": "give me a ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      },
+      {
+        "text": " that sounds ",
+        "userDefined": false
+      },
+      {
+        "text": "metal",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "a4b6b24c-30e7-43d4-9e16-6e97d3c23710",
+    "data": [
+      {
+        "text": "Add ",
+        "userDefined": false
+      },
+      {
+        "text": "Hip-Hop",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "d74fe58b-ddb1-4db9-a77f-ed2897dea523",
+    "data": [
+      {
+        "text": "Add ",
+        "userDefined": false
+      },
+      {
+        "text": "Funk",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "f89b1cc2-4721-4e74-9478-da43ecbcd415",
+    "data": [
+      {
+        "text": "Give me a ",
+        "userDefined": false
+      },
+      {
+        "text": "Funky",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Beat",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "e15eaa4d-45ec-4ce7-b95f-17d78a0e5c66",
+    "data": [
+      {
+        "text": "Play ",
+        "userDefined": false
+      },
+      {
+        "text": "Jazz",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Keyboard",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  },
+  {
+    "id": "f281213d-42c8-4de7-bb18-6be8e1f8d18f",
+    "data": [
+      {
+        "text": "Start ",
+        "userDefined": false
+      },
+      {
+        "text": "Disco",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507734641
+  }
+]

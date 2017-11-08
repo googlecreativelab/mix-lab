@@ -1,0 +1,53 @@
+{
+  "id": "1d8a737f-2fa4-4395-bcc0-bdf28823677f",
+  "name": "volumeUp",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "volumeUp",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1c4b2789-4555-4351-a665-503fecd8bc84",
+          "required": false,
+          "dataType": "@instrument",
+          "name": "instrument",
+          "value": "$instrument",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Cranking it up."
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Turning the volume up."
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Going up to 11."
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509116745,
+  "fallbackIntent": false,
+  "events": []
+}

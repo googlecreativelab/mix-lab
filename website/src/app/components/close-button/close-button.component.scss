@@ -1,0 +1,24 @@
+@import "../../../assets/scss/shared";
+
+.close {
+  @include padding($bumper $bumper-mobile null null);
+  @include position(fixed, 0 0 null null);
+  cursor: pointer;
+  outline: none;
+  transform: translate3d(0, 0, 0);
+  z-index: 5;
+
+  @include grid-media($m) {
+    @include padding($bumper $bumper null null);
+    @include position(fixed, 0 0 null null);
+  }
+}
+
+.close-button {
+  @include svg(17px, 17px, $white);
+  display: block;
+
+  @include grid-media($m) {
+    @include svg(26px, 26px, $white);
+  }
+}

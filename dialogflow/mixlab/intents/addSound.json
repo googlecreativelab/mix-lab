@@ -1,0 +1,86 @@
+{
+  "id": "334d2ac5-b715-459b-9153-c3708623c971",
+  "name": "addSound",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "addInstrument",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "380cc58c-733d-4f59-ae55-ce9523ca7466",
+          "required": false,
+          "dataType": "@instrument",
+          "name": "instrument",
+          "value": "$instrument",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What kind of instrument?"
+            },
+            {
+              "lang": "en",
+              "value": "Which instrument?"
+            },
+            {
+              "lang": "en",
+              "value": "What should play?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "642a7f89-57c9-4345-b4b9-8f8b71aff87f",
+          "dataType": "@genre",
+          "name": "genre",
+          "value": "$genre",
+          "isList": false
+        },
+        {
+          "id": "169e695f-9ed6-474b-95ab-2f0ae5c2fe49",
+          "dataType": "@solo",
+          "name": "solo",
+          "value": "$solo",
+          "isList": false
+        },
+        {
+          "id": "24d1d30c-9f1d-4819-8f63-5f132de6e425",
+          "dataType": "@sfx",
+          "name": "sfx",
+          "value": "$sfx",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Added!"
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Sure, added!"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508956076149,
+  "fallbackIntent": false,
+  "events": []
+}

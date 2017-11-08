@@ -1,0 +1,481 @@
+[
+  {
+    "id": "04277b75-2279-4c24-b551-c80fb214778b",
+    "data": [
+      {
+        "text": "cancel the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508966150
+  },
+  {
+    "id": "d640d450-d3da-4f75-9e88-97b5ef64d43a",
+    "data": [
+      {
+        "text": "stop playing the ",
+        "userDefined": false
+      },
+      {
+        "text": "drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508966150
+  },
+  {
+    "id": "47a84823-909d-4268-a02e-c138acec11d7",
+    "data": [
+      {
+        "text": "Turn off the ",
+        "userDefined": false
+      },
+      {
+        "text": "Drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508966150
+  },
+  {
+    "id": "4db27d03-fda2-47bd-84d4-f679b882f854",
+    "data": [
+      {
+        "text": "lose the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508966150
+  },
+  {
+    "id": "4d16d389-42eb-4274-9791-d5f2faded401",
+    "data": [
+      {
+        "text": "Remove the ",
+        "userDefined": false
+      },
+      {
+        "text": "dubstep",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508966150
+  },
+  {
+    "id": "e0b23c37-e94d-45ab-b4ac-e4fa9320f9ba",
+    "data": [
+      {
+        "text": "kill the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508966150
+  },
+  {
+    "id": "c39de6e5-ecbb-4d3d-8f91-19cdc3c0ad98",
+    "data": [
+      {
+        "text": "lose ",
+        "userDefined": false
+      },
+      {
+        "text": "drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508966150
+  },
+  {
+    "id": "08b579af-3d56-4c8f-abba-53861f61fb97",
+    "data": [
+      {
+        "text": "quit ",
+        "userDefined": false
+      },
+      {
+        "text": "drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508966150
+  },
+  {
+    "id": "208acc28-8561-4f4f-9231-8af2fb158ffb",
+    "data": [
+      {
+        "text": "I don\u0027t like the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508966150
+  },
+  {
+    "id": "993c6620-0caf-43a2-81fc-2628cb6498a9",
+    "data": [
+      {
+        "text": "Stop ",
+        "userDefined": false
+      },
+      {
+        "text": "dubstep",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508966150
+  },
+  {
+    "id": "eb7be868-17f4-48c1-b7a6-df1f6e7ea246",
+    "data": [
+      {
+        "text": "Stop the ",
+        "userDefined": false
+      },
+      {
+        "text": "country",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1507221272
+  },
+  {
+    "id": "b3fc2773-dec6-4b00-8050-ada4f056c20d",
+    "data": [
+      {
+        "text": "Take the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      },
+      {
+        "text": " out",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507221272
+  },
+  {
+    "id": "e2d6c8b0-c30f-4316-84b6-f9270f04e68f",
+    "data": [
+      {
+        "text": "Undo the ",
+        "userDefined": false
+      },
+      {
+        "text": "Keyboard",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508174350
+  },
+  {
+    "id": "bb283276-0069-4daf-8dd3-a3a519183f6f",
+    "data": [
+      {
+        "text": "nix the ",
+        "userDefined": false
+      },
+      {
+        "text": "drum",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507244414
+  },
+  {
+    "id": "e91cde36-652a-43b6-9f7b-dfd98c859e94",
+    "data": [
+      {
+        "text": "drop ",
+        "userDefined": false
+      },
+      {
+        "text": "drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507750893
+  },
+  {
+    "id": "3820c760-8201-49db-81c8-af02ddccc535",
+    "data": [
+      {
+        "text": "clear the ",
+        "userDefined": false
+      },
+      {
+        "text": "drum",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507221272
+  },
+  {
+    "id": "c7d0ea16-c61f-4ea1-8a5c-02db9b3af22e",
+    "data": [
+      {
+        "text": "quit playing ",
+        "userDefined": false
+      },
+      {
+        "text": "drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508174350
+  },
+  {
+    "id": "b7754dbd-be2f-4c70-8668-3a3dfcd74f43",
+    "data": [
+      {
+        "text": "Stop the ",
+        "userDefined": false
+      },
+      {
+        "text": "Funky",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Bass",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508174350
+  },
+  {
+    "id": "5a202f24-1801-4b37-aea2-f96fd5a88091",
+    "data": [
+      {
+        "text": "Get rid of the ",
+        "userDefined": false
+      },
+      {
+        "text": "Drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508174350
+  },
+  {
+    "id": "3c5bec57-09e8-4cac-b8ac-21ebada45c4e",
+    "data": [
+      {
+        "text": "Not do the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1508174350
+  },
+  {
+    "id": "1189e501-9fe1-49d5-b929-82e57241b75d",
+    "data": [
+      {
+        "text": "Stop ",
+        "userDefined": false
+      },
+      {
+        "text": "drum",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507221272
+  },
+  {
+    "id": "ec977993-22db-4f5b-90a1-c54e0ebf4ec1",
+    "data": [
+      {
+        "text": "Delete the ",
+        "userDefined": false
+      },
+      {
+        "text": "Jazz",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Keyboard",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508174350
+  },
+  {
+    "id": "b5136514-24e3-4d94-b255-585a0a3b16b1",
+    "data": [
+      {
+        "text": "drop",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507221272
+  },
+  {
+    "id": "17a7b627-4871-413a-a2ad-2e8b18109bbc",
+    "data": [
+      {
+        "text": "Remove the ",
+        "userDefined": false
+      },
+      {
+        "text": "Guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508174350
+  },
+  {
+    "id": "c5cdc394-7b59-49df-902e-e8231ea6410d",
+    "data": [
+      {
+        "text": "Take away the ",
+        "userDefined": false
+      },
+      {
+        "text": "Bass",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508174350
+  }
+]

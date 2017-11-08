@@ -1,0 +1,40 @@
+{
+  "id": "48a90a9d-16bc-4979-aa6b-a4eae1b56788",
+  "name": "superFast",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "superFast",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Hyperspeed, ENGAGED!"
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "LET\u0027S GOOOOOOOO"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508956076177,
+  "fallbackIntent": false,
+  "events": []
+}

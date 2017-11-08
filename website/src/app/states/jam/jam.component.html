@@ -1,0 +1,42 @@
+<div
+  class="jam"
+  [@fade]="fadeState">
+  <a
+    [routerLink]="['/']"
+    class="back-button"
+    angulartics2On="click"
+    angularticsEvent="Click"
+    angularticsCategory="Back"
+    [inlineSVG]="'/assets/images/arrow-left.svg'">
+  </a>
+  <app-volume-button></app-volume-button>
+  <div
+    class="command"
+    [ngClass]="{'fallback-state': !(fallback)?.supported}">
+    <ng-container *ngIf="(fallback)?.supported">
+      <div
+        class="action">
+        <span class="idle-text" [ngClass]="{'idle': idle}">
+          <span class="actiontext mobile">Tap</span>
+          <span class="actiontext desktop">Click</span>
+          the mic and try saying:
+        </span>
+        <span class="listen-text" [ngClass]="{'listening': listening}">
+          <span [inlineSVG]="'/assets/images/icon-mic.svg'" class="icon"></span>
+          Listening...
+        </span>
+      </div>
+      <div #message class="message" [ngClass]="{'showing':showCommand, 'listening': listening}">{{command}}</div>
+    </ng-container>
+    <ng-container *ngIf="!(fallback)?.supported">
+      <div class="fallback" [innerHTML]="(fallback)?.message"></div>
+    </ng-container>
+  </div>
+
+  <app-track-names></app-track-names>
+  <app-social *ngIf="(fallback)?.supported"></app-social>
+
+  <!--<div class="debug">-->
+    <!--<input #debug type="text" (keyup.enter)="makeIntent(debug.value)">-->
+  <!--</div>-->
+</div>

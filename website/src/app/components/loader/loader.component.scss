@@ -1,0 +1,38 @@
+@import "../../../assets/scss/shared";
+
+.loader {
+  @include align-all(absolute);
+  @include svg(100%, 100%, currentColor);
+  opacity: 0;
+  pointer-events: none;
+  max-width: 100px;
+  transition: opacity $transition-speed;
+  width: 100%;
+
+  &.active {
+    opacity: 1;
+  }
+
+  /deep/ circle {
+    &:nth-child(1) {
+      animation: 0.7s loader 0s infinite;
+    }
+
+    &:nth-child(2) {
+      animation: 0.7s loader 0.3s infinite;
+    }
+
+    &:nth-child(3) {
+      animation: 0.7s loader 0.5s infinite;
+    }
+  }
+}
+
+@keyframes loader {
+  to {
+    fill-opacity: 0;
+  }
+  from {
+    fill-opacity: 1;
+  }
+}

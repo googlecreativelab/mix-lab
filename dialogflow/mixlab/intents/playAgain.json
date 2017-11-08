@@ -1,0 +1,40 @@
+{
+  "id": "45e539a5-b94a-4f67-be36-8f3245985fd7",
+  "name": "playAgain",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "playAgain",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Playing again!"
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Sure, let\u0027s keep it going!"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509029336,
+  "fallbackIntent": false,
+  "events": []
+}

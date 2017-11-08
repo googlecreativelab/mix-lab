@@ -1,0 +1,40 @@
+{
+  "id": "ed2d91ac-d912-4637-8049-050ee76cb2a7",
+  "name": "superSlow",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "superSlow",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Slow enough for ya?"
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "...are you a turtle?"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508956076216,
+  "fallbackIntent": false,
+  "events": []
+}

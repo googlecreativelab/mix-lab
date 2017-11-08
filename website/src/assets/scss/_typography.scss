@@ -1,0 +1,107 @@
+@import "colors";
+@import "mixins";
+
+$poppins: 'Poppins', Helvetica, Arial, sans-serif;
+
+%body {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  line-height: normal;
+
+  @include grid-media($m) {
+    font-size: 18px;
+  }
+}
+
+%body-m {
+  @extend %body;
+  font-size: 16px;
+
+  @include grid-media($m) {
+    font-size: 20px;
+  }
+
+  @media (max-height: 850px) and (max-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media (max-height: 750px) and (min-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media (max-height: 575px) and (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+%body-l {
+  @extend %body;
+  font-size: 16px;
+
+  @include grid-media($m) {
+    font-size: 28px;
+  }
+
+  @media (max-height: 700px) and (max-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media (max-height: 700px) and (min-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media (max-height: 575px) and (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+%cta {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: $letter-spacing;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  @include grid-media($m) {
+    font-size: 16px;
+  }
+
+  @include grid-media($l) {
+    font-size: 20px;
+  }
+}
+
+%button-outline {
+  @extend %cta;
+  @include padding(10px 15px);
+  border: 2px solid;
+  border-color: $black;
+  border-radius: $border-radius;
+  color: $black;
+  display: block;
+  text-align: center;
+  transition: all $transition-speed;
+
+  /deep/ svg {
+    fill: $black;
+  }
+
+  @include grid-media($m) {
+    @include padding(15px 25px);
+    background-color: rgba($white, 0.8);
+    border: none;
+  }
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: $black;
+    background-color: $white;
+
+    /deep/ svg {
+      fill: $black;
+      transition: fill $transition-speed;
+    }
+  }
+}

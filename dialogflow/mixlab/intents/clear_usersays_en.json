@@ -1,0 +1,367 @@
+[
+  {
+    "id": "ea8ac03b-bac8-4ea3-b9e5-e9c974e7be97",
+    "data": [
+      {
+        "text": "remove all",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509390944
+  },
+  {
+    "id": "a656ee3f-d283-445f-be25-89b9e083dffd",
+    "data": [
+      {
+        "text": "clean",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": false
+      },
+      {
+        "text": " slate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509390944
+  },
+  {
+    "id": "40b76432-4ded-40eb-85bc-fc0cbef9b3ce",
+    "data": [
+      {
+        "text": "removal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509328284
+  },
+  {
+    "id": "7842e179-fbe7-484d-9afc-aa20995a8bc3",
+    "data": [
+      {
+        "text": "quit all",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509328284
+  },
+  {
+    "id": "aaceb6fd-b2ef-48ab-8d8b-0147f8cb1f1e",
+    "data": [
+      {
+        "text": "cut it out",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509328284
+  },
+  {
+    "id": "979db7a9-afb4-46d4-85f1-3645bf39c6e0",
+    "data": [
+      {
+        "text": "stop it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509328284
+  },
+  {
+    "id": "0bcf95a7-e72a-4e07-9ff2-57ee0c64922e",
+    "data": [
+      {
+        "text": "don\u0027t do anything",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509328284
+  },
+  {
+    "id": "2dc689c2-f204-46fe-805f-2291848d6eae",
+    "data": [
+      {
+        "text": "do nothing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509328284
+  },
+  {
+    "id": "89d1348c-a509-4077-98f3-4f2ec3c87fdb",
+    "data": [
+      {
+        "text": "remove everything",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509328284
+  },
+  {
+    "id": "625668f6-660a-4ece-9976-1e9b3085f69d",
+    "data": [
+      {
+        "text": "get rid of everything",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509328284
+  },
+  {
+    "id": "9ce230fc-87a5-43d6-8f04-a91dd03b24c2",
+    "data": [
+      {
+        "text": "start from scratch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509328284
+  },
+  {
+    "id": "9fe875c4-0ded-47d1-b149-d0bcc4ee3ecc",
+    "data": [
+      {
+        "text": "turn off the music",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508365061
+  },
+  {
+    "id": "314d000f-2f0c-4b5b-878c-4e7d7ffc5792",
+    "data": [
+      {
+        "text": "stop playing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508365061
+  },
+  {
+    "id": "151c7799-d74b-4d73-80d1-519cac5278f7",
+    "data": [
+      {
+        "text": "turn everything off",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508365061
+  },
+  {
+    "id": "785682ad-ec5d-4443-aaab-e3c98ec54fbb",
+    "data": [
+      {
+        "text": "shut up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508365061
+  },
+  {
+    "id": "c683b50e-5f82-4be2-8025-04cba7932dc8",
+    "data": [
+      {
+        "text": "quit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508174252
+  },
+  {
+    "id": "7f567cd5-86ec-48e0-950c-efe05f9757b4",
+    "data": [
+      {
+        "text": "remove all the instruments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508174252
+  },
+  {
+    "id": "95c731f1-e869-4cb5-86a2-be2c70eccb2b",
+    "data": [
+      {
+        "text": "get out of here",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508174252
+  },
+  {
+    "id": "06b47096-791d-4eb9-84a0-becf1fe9a0ac",
+    "data": [
+      {
+        "text": "RIP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508174252
+  },
+  {
+    "id": "0edeee11-2535-482c-b0f6-a8703a01f82b",
+    "data": [
+      {
+        "text": "I hate you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508174252
+  },
+  {
+    "id": "7529be72-048c-4002-ac5e-67d3d7d73592",
+    "data": [
+      {
+        "text": "start fresh",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f9ae76a4-2d55-4717-afd6-8c1d952b896b",
+    "data": [
+      {
+        "text": "stop all sounds",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508365061
+  },
+  {
+    "id": "f7b6e268-e6aa-47bb-808a-ac8967589829",
+    "data": [
+      {
+        "text": "clear",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508365061
+  },
+  {
+    "id": "cdd8d5dd-58cc-4120-9b51-3182f83f7538",
+    "data": [
+      {
+        "text": "stop the music",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508365061
+  },
+  {
+    "id": "a2fd42fa-7b2c-4f25-ae2f-980e9bf97b08",
+    "data": [
+      {
+        "text": "start over",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508365061
+  },
+  {
+    "id": "0be7f27b-5cc5-48f0-8b16-d44e8949eade",
+    "data": [
+      {
+        "text": "get rid of it all",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508365061
+  },
+  {
+    "id": "50104a62-54da-4f74-bf2e-0ca9423cf9dc",
+    "data": [
+      {
+        "text": "restart",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508365061
+  },
+  {
+    "id": "1f3456f1-ded2-442f-a2a9-40df0946d3c4",
+    "data": [
+      {
+        "text": "clear everything",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508365061
+  },
+  {
+    "id": "d9b86f4c-b1e7-4ba7-88f9-388e07c384b2",
+    "data": [
+      {
+        "text": "silence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508365061
+  },
+  {
+    "id": "dd539d46-5a77-449e-89dc-2665d78adb70",
+    "data": [
+      {
+        "text": "turn it off",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508365061
+  }
+]

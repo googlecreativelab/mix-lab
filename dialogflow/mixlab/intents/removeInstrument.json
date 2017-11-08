@@ -1,0 +1,55 @@
+{
+  "id": "88d4f358-5dd9-4ee2-ae56-0d0ab1bd75c7",
+  "name": "removeInstrument",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "removeInstrument",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "be9b86ae-69dd-4fca-9fe5-5c79bc82ae2b",
+          "dataType": "@instrument",
+          "name": "instrument",
+          "value": "$instrument",
+          "isList": false
+        },
+        {
+          "id": "8bb0cb46-4047-4ea6-bf71-3ca6aac51396",
+          "dataType": "@genre",
+          "name": "genre",
+          "value": "$genre",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Removed!"
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Ok, got rid of that for you!"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509116355,
+  "fallbackIntent": false,
+  "events": []
+}

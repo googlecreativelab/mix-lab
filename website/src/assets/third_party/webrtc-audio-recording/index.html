@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-capable" content="yes">
+    <title>WebRTC Safari Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+</head>
+<body>
+
+<div id="container">
+
+    <div id="player">
+
+        <h1>Audio Recording using RecordRTC</h1>
+        <p>Tested in Chrome, Firefox and Safari 11 (Mac and IOS)</p>
+
+        <br>
+        <button id="btn-start-recording">Start Recording</button>
+        <button id="btn-stop-recording" disabled>Stop Recording</button>
+
+        <hr>
+        <audio controls autoplay></audio>
+    </div>
+</div>
+
+<script src="AudioRecorder.js"></script>
+
+</body>
+</html>

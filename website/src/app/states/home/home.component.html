@@ -1,0 +1,79 @@
+<div
+  class="home"
+  [@fade]="fadeState"
+  [ngClass]="{'active': modalStatus}">
+  <div
+    #bubble
+    [@peek]="peekState"
+    class="bubble-wrap">
+    <div class="bubble-text">
+      Hey Google, talk to
+    </div>
+    <div
+      class="bubble"
+      [inlineSVG]="'/assets/images/bubble.svg'">
+    </div>
+    <div class="try-saying" [ngClass]="{'showing': (command !== 'Make music using voice commands on your Google Home.')}">Try saying: </div>
+    <div
+      class="tagline">
+      <span [ngClass]="{'showing': showCommand}"><br [ngClass]="{'hidden': (command === 'Make music using voice commands on your Google Home.')}">{{ command || '&nbsp;'}}</span>
+    </div>
+  </div>
+  <div class="google-home-wrap">
+    <img
+      #googlehome
+      src="assets/images/google-home.png"
+      class="google-home">
+  </div>
+  <a
+    (click)="toggleModal()"
+    [routerLink]="['/about']"
+    class="about">
+    About
+  </a>
+  <a
+    href="https://www.google.com/policies/"
+    target="_blank"
+    angulartics2On="click"
+    angularticsEvent="Click"
+    angularticsCategory="External_Link"
+    [angularticsProperties]="{label: 'Privacy & Terms'}"
+    class="privacy-terms">
+    Privacy &amp; Terms
+  </a>
+  <a
+    href="https://experiments.withgoogle.com/voice"
+    class="badge"
+    target="_blank"
+    angulartics2On="click"
+    angularticsEvent="Click"
+    angularticsCategory="External_Link"
+    [angularticsProperties]="{label: 'Google + Voice Experiment Logo'}"
+    [inlineSVG]="'assets/images/badge.svg'">
+  </a>
+  <a
+    [ngClass]="{'adjust': adjustButton}"
+    [routerLink]="['/jam']"
+    angulartics2On="click"
+    angularticsEvent="Click"
+    angularticsCategory="CTA_Try_It"
+    class="button"
+    *ngIf="(fallback)?.supported">
+    <span
+      [inlineSVG]="'/assets/images/icon-mic.svg'"
+      class="icon">
+    </span>
+    Preview it Here
+  </a>
+  <div
+    class="fallback"
+    [innerHTML]="(fallback)?.message"
+    *ngIf="!(fallback)?.supported">
+  </div>
+</div>
+
+<app-modal
+  *ngIf="modalStatus"
+  [status]="modalStatus"
+  (modalNotify)="modalStatus = $event">
+</app-modal>

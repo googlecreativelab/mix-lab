@@ -1,0 +1,64 @@
+{
+  "id": "09a1f69e-f9a5-48c6-8f9c-dc9f8a58de9b",
+  "name": "getSuggestions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "getSuggestions-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "Try commands like \"gimme some reggae bass\", \"speed this up\" or even \"try something else\" if you aren\u0027t happy with the instrument you just got."
+            },
+            {
+              "textToSpeech": "Try saying “Add a funky keyboard” or “Give me a violin”"
+            },
+            {
+              "textToSpeech": "Try saying “Give me jazz drums” or “Add a soulful piano”"
+            },
+            {
+              "textToSpeech": "Try saying “Give me a jazz bass” or “Add some funky keys”"
+            },
+            {
+              "textToSpeech": "Try saying “Give me a train whistle” or “Give me country guitar.”"
+            },
+            {
+              "textToSpeech": "Try saying “Give me a cat meow” or “Add soul guitar”"
+            },
+            {
+              "textToSpeech": "Try saying “Give me an owl hoot” or “Add funky drums”"
+            },
+            {
+              "textToSpeech": "Try saying “Give me a ghost” or “Give me polka.”"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509393490,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GET_SUGGESTIONS"
+    }
+  ]
+}

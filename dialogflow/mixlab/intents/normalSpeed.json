@@ -1,0 +1,44 @@
+{
+  "id": "60fb0ce1-0f6b-48ee-8c09-f8affbb4ffd0",
+  "name": "normalSpeed",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "normalSpeed",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Back to normal speed."
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Aaaaand we\u0027re back to normal speed."
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Bringing it back to normal speed."
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508956076183,
+  "fallbackIntent": false,
+  "events": []
+}

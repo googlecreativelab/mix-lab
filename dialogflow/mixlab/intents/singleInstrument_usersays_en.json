@@ -1,0 +1,325 @@
+[
+  {
+    "id": "ae4f6f7e-bb58-4c05-9af7-22227552e494",
+    "data": [
+      {
+        "text": "play just ",
+        "userDefined": false
+      },
+      {
+        "text": "jazz",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "piano",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "f2386ab5-aee7-40bf-a579-6c1972a2b546",
+    "data": [
+      {
+        "text": "play only ",
+        "userDefined": false
+      },
+      {
+        "text": "jazz",
+        "alias": "genre",
+        "meta": "@genre",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "piano",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "318c6a5c-6eb7-432e-9114-080a02a8f87a",
+    "data": [
+      {
+        "text": "play just the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b5fcc098-1e7e-4fdb-a26a-a47cc1d67d4a",
+    "data": [
+      {
+        "text": "play just ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bc032a35-bbec-49c8-a3b4-48babf18d606",
+    "data": [
+      {
+        "text": "play only the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b4994af5-a4bf-45dd-b306-0200c8b58bf3",
+    "data": [
+      {
+        "text": "play the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      },
+      {
+        "text": " only",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a4fd8128-7228-4f9c-afde-0f2beaa80560",
+    "data": [
+      {
+        "text": "play only ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9f8286fb-dadc-4760-ab78-a208eb331d0a",
+    "data": [
+      {
+        "text": "get rid of it all but keep the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f3a9eabb-4154-4daf-8e44-021ebf7138e7",
+    "data": [
+      {
+        "text": "get rid of everything except the ",
+        "userDefined": false
+      },
+      {
+        "text": "drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6265e3c4-8ac3-4136-9386-875290ba4c7f",
+    "data": [
+      {
+        "text": "take away everything but the ",
+        "userDefined": false
+      },
+      {
+        "text": "keyboard",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ef14aa84-ad81-4a20-a645-3c2d255ea368",
+    "data": [
+      {
+        "text": "only the ",
+        "userDefined": false
+      },
+      {
+        "text": "drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f391b74f-0b41-4bc9-9378-d168abc0211d",
+    "data": [
+      {
+        "text": "give me only the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "af901bcb-b442-4aef-88da-3b33eb479cb4",
+    "data": [
+      {
+        "text": "turn off everything but the ",
+        "userDefined": false
+      },
+      {
+        "text": "bass",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "869c3e30-34a3-4e0a-8b54-51bac7b358fe",
+    "data": [
+      {
+        "text": "remove everything but the ",
+        "userDefined": false
+      },
+      {
+        "text": "bass",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0135733f-8ffd-48ed-91fd-b25d67fc3eb3",
+    "data": [
+      {
+        "text": "just the ",
+        "userDefined": false
+      },
+      {
+        "text": "keyboard",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6b4598a6-58b9-4a33-96d1-4a68221463c7",
+    "data": [
+      {
+        "text": "only play the ",
+        "userDefined": false
+      },
+      {
+        "text": "drums",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bb735e20-df61-45fa-ba26-f42303b8aba5",
+    "data": [
+      {
+        "text": "solo the ",
+        "userDefined": false
+      },
+      {
+        "text": "guitar",
+        "alias": "instrument",
+        "meta": "@instrument",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

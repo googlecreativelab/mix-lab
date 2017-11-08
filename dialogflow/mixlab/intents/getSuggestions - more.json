@@ -1,0 +1,27 @@
+{
+  "id": "35733d52-7a71-4371-98e9-b2383e75ee06",
+  "parentId": "09a1f69e-f9a5-48c6-8f9c-dc9f8a58de9b",
+  "rootParentId": "09a1f69e-f9a5-48c6-8f9c-dc9f8a58de9b",
+  "name": "getSuggestions - more",
+  "auto": true,
+  "contexts": [
+    "getSuggestions-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "followup.getSuggestions-more",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508956076431,
+  "fallbackIntent": false,
+  "events": []
+}

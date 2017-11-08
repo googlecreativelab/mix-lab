@@ -1,0 +1,28 @@
+@import '~bourbon/app/assets/stylesheets/bourbon';
+@import '~bourbon-neat/core/_neat';
+
+@mixin align-all($position: 'absolute') {
+  @include position($position, 50% null null 50%);
+  transform: translate(-50%, -50%);
+}
+
+@mixin align-reset($position: static) {
+  @include position($position, auto);
+  transform: none;
+}
+
+@mixin responsive-wrap($padding-bottom: 56.25%) {
+  height: 0;
+  padding-bottom: $padding-bottom;
+  position: relative;
+}
+
+@mixin svg($width: 20px, $height: 20px, $fill: white) {
+  @include size($width $height);
+
+  /deep/ svg {
+    @include size(100%);
+    display: block;
+    fill: $fill;
+  }
+}

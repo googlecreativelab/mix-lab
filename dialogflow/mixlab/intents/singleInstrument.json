@@ -1,0 +1,62 @@
+{
+  "id": "a715bfae-e60f-4bdd-ab33-4545ab04b0b4",
+  "name": "singleInstrument",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "singleInstrument",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "dbe0f375-0c7f-49f7-9b2a-85dd4a3fe8c0",
+          "required": true,
+          "dataType": "@instrument",
+          "name": "instrument",
+          "value": "$instrument",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Ok, which instrument do you want to keep?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "dd5ed065-f40a-4695-aba9-11a19d3806cf",
+          "dataType": "@genre",
+          "name": "genre",
+          "value": "$genre",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Ok, we solo\u0027d that for you."
+            },
+            {
+              "textToSpeech": "$filler",
+              "displayText": "Great, back to a single instrument."
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508956076226,
+  "fallbackIntent": false,
+  "events": []
+}

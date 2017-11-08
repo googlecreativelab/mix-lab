@@ -1,0 +1,1066 @@
+[
+  {
+    "value": "classical",
+    "synonyms": [
+      "classical",
+      "beethoven",
+      "mozart"
+    ]
+  },
+  {
+    "value": "relaxing",
+    "synonyms": [
+      "relaxing",
+      "restful",
+      "chill",
+      "soothing",
+      "relaxed",
+      "relaxo"
+    ]
+  },
+  {
+    "value": "indie rock",
+    "synonyms": [
+      "indie rock",
+      "indie"
+    ]
+  },
+  {
+    "value": "alternative",
+    "synonyms": [
+      "alternative"
+    ]
+  },
+  {
+    "value": "alternative rock",
+    "synonyms": [
+      "alternative rock",
+      "alt rock",
+      "alternative"
+    ]
+  },
+  {
+    "value": "baroque",
+    "synonyms": [
+      "baroque",
+      "bach"
+    ]
+  },
+  {
+    "value": "rave",
+    "synonyms": [
+      "rave"
+    ]
+  },
+  {
+    "value": "edm",
+    "synonyms": [
+      "edm",
+      "electronic dance music",
+      "EDM",
+      "E D M"
+    ]
+  },
+  {
+    "value": "rock",
+    "synonyms": [
+      "rock"
+    ]
+  },
+  {
+    "value": "ethereal",
+    "synonyms": [
+      "ethereal",
+      "ghostly",
+      "cereal",
+      "a stereo"
+    ]
+  },
+  {
+    "value": "bubble bath",
+    "synonyms": [
+      "bubble bath"
+    ]
+  },
+  {
+    "value": "glissando",
+    "synonyms": [
+      "glissando",
+      "gliss"
+    ]
+  },
+  {
+    "value": "dreamy",
+    "synonyms": [
+      "dreamy"
+    ]
+  },
+  {
+    "value": "arpeggio",
+    "synonyms": [
+      "arpeggio",
+      "arpeggiated"
+    ]
+  },
+  {
+    "value": "carefree",
+    "synonyms": [
+      "carefree"
+    ]
+  },
+  {
+    "value": "reggae",
+    "synonyms": [
+      "reggae",
+      "caribbean",
+      "island"
+    ]
+  },
+  {
+    "value": "dance",
+    "synonyms": [
+      "dance",
+      "dance music"
+    ]
+  },
+  {
+    "value": "house",
+    "synonyms": [
+      "house"
+    ]
+  },
+  {
+    "value": "groovy",
+    "synonyms": [
+      "groovy"
+    ]
+  },
+  {
+    "value": "soulful",
+    "synonyms": [
+      "soulful"
+    ]
+  },
+  {
+    "value": "soul",
+    "synonyms": [
+      "soul"
+    ]
+  },
+  {
+    "value": "2000s",
+    "synonyms": [
+      "2000s",
+      "00s"
+    ]
+  },
+  {
+    "value": "club",
+    "synonyms": [
+      "club"
+    ]
+  },
+  {
+    "value": "distorted",
+    "synonyms": [
+      "distorted"
+    ]
+  },
+  {
+    "value": "smooth",
+    "synonyms": [
+      "smooth"
+    ]
+  },
+  {
+    "value": "trance",
+    "synonyms": [
+      "trance"
+    ]
+  },
+  {
+    "value": "upbeat",
+    "synonyms": [
+      "upbeat",
+      "fast"
+    ]
+  },
+  {
+    "value": "techno",
+    "synonyms": [
+      "techno"
+    ]
+  },
+  {
+    "value": "happy",
+    "synonyms": [
+      "happy",
+      "whacky",
+      "silly",
+      "joyful"
+    ]
+  },
+  {
+    "value": "lounge",
+    "synonyms": [
+      "lounge",
+      "loungey"
+    ]
+  },
+  {
+    "value": "70s",
+    "synonyms": [
+      "70s"
+    ]
+  },
+  {
+    "value": "electronic",
+    "synonyms": [
+      "electronic",
+      "electronica",
+      "electro"
+    ]
+  },
+  {
+    "value": "heavy metal",
+    "synonyms": [
+      "heavy metal",
+      "metal",
+      "black metal",
+      "death metal"
+    ]
+  },
+  {
+    "value": "laid back",
+    "synonyms": [
+      "laid back"
+    ]
+  },
+  {
+    "value": "hip hop",
+    "synonyms": [
+      "hip hop",
+      "hip hoppity",
+      "rap",
+      "hip-hop",
+      "hiphop"
+    ]
+  },
+  {
+    "value": "grunge",
+    "synonyms": [
+      "grunge",
+      "grungy"
+    ]
+  },
+  {
+    "value": "more",
+    "synonyms": [
+      "more",
+      "even more"
+    ]
+  },
+  {
+    "value": "r and b",
+    "synonyms": [
+      "r and b",
+      "rythmn and blues",
+      "r\u0026b"
+    ]
+  },
+  {
+    "value": "backbeat",
+    "synonyms": [
+      "backbeat",
+      "back beat"
+    ]
+  },
+  {
+    "value": "staccato",
+    "synonyms": [
+      "staccato"
+    ]
+  },
+  {
+    "value": "60s",
+    "synonyms": [
+      "60s",
+      "1960s",
+      "1960"
+    ]
+  },
+  {
+    "value": "funk",
+    "synonyms": [
+      "funk",
+      "funky"
+    ]
+  },
+  {
+    "value": "retro",
+    "synonyms": [
+      "retro"
+    ]
+  },
+  {
+    "value": "angry",
+    "synonyms": [
+      "angry"
+    ]
+  },
+  {
+    "value": "tremolo",
+    "synonyms": [
+      "tremolo"
+    ]
+  },
+  {
+    "value": "bouncy",
+    "synonyms": [
+      "bouncy"
+    ]
+  },
+  {
+    "value": "aggressive",
+    "synonyms": [
+      "aggressive",
+      "agro"
+    ]
+  },
+  {
+    "value": "dark",
+    "synonyms": [
+      "dark"
+    ]
+  },
+  {
+    "value": "jazz",
+    "synonyms": [
+      "jazz",
+      "jazzy"
+    ]
+  },
+  {
+    "value": "chiptune",
+    "synonyms": [
+      "chiptune"
+    ]
+  },
+  {
+    "value": "acoustic",
+    "synonyms": [
+      "acoustic"
+    ]
+  },
+  {
+    "value": "marching band",
+    "synonyms": [
+      "marching band"
+    ]
+  },
+  {
+    "value": "surf",
+    "synonyms": [
+      "surf"
+    ]
+  },
+  {
+    "value": "mariachi",
+    "synonyms": [
+      "mariachi",
+      "mexican",
+      "german"
+    ]
+  },
+  {
+    "value": "reverb",
+    "synonyms": [
+      "reverb",
+      "reverby",
+      "echo"
+    ]
+  },
+  {
+    "value": "surf rock",
+    "synonyms": [
+      "surf rock",
+      "surf",
+      "california",
+      "beach"
+    ]
+  },
+  {
+    "value": "jazz fusion",
+    "synonyms": [
+      "jazz fusion"
+    ]
+  },
+  {
+    "value": "electro soul",
+    "synonyms": [
+      "electro soul"
+    ]
+  },
+  {
+    "value": "twang",
+    "synonyms": [
+      "twang",
+      "twangy"
+    ]
+  },
+  {
+    "value": "80s",
+    "synonyms": [
+      "80s",
+      "1980s"
+    ]
+  },
+  {
+    "value": "classic rock",
+    "synonyms": [
+      "classic rock"
+    ]
+  },
+  {
+    "value": "pop",
+    "synonyms": [
+      "pop",
+      "poppy",
+      "popular"
+    ]
+  },
+  {
+    "value": "synth pop",
+    "synonyms": [
+      "synth pop"
+    ]
+  },
+  {
+    "value": "electro pop",
+    "synonyms": [
+      "electro pop"
+    ]
+  },
+  {
+    "value": "bowed",
+    "synonyms": [
+      "bowed"
+    ]
+  },
+  {
+    "value": "beautiful",
+    "synonyms": [
+      "beautiful",
+      "pretty"
+    ]
+  },
+  {
+    "value": "polka",
+    "synonyms": [
+      "polka"
+    ]
+  },
+  {
+    "value": "heavy",
+    "synonyms": [
+      "heavy",
+      "sub bass"
+    ]
+  },
+  {
+    "value": "808",
+    "synonyms": [
+      "808",
+      "8 O 8",
+      "eight o eight"
+    ]
+  },
+  {
+    "value": "cool",
+    "synonyms": [
+      "cool"
+    ]
+  },
+  {
+    "value": "dream pop",
+    "synonyms": [
+      "dream pop"
+    ]
+  },
+  {
+    "value": "chillwave",
+    "synonyms": [
+      "chillwave"
+    ]
+  },
+  {
+    "value": "triumphant",
+    "synonyms": [
+      "triumphant",
+      "triumph"
+    ]
+  },
+  {
+    "value": "indie pop",
+    "synonyms": [
+      "indie pop"
+    ]
+  },
+  {
+    "value": "electronic",
+    "synonyms": [
+      "electro",
+      "electronic",
+      "electronica"
+    ]
+  },
+  {
+    "value": "chill",
+    "synonyms": [
+      "chill",
+      "chilled out"
+    ]
+  },
+  {
+    "value": "shoegaze",
+    "synonyms": [
+      "shoegaze"
+    ]
+  },
+  {
+    "value": "vibey",
+    "synonyms": [
+      "vibey"
+    ]
+  },
+  {
+    "value": "90s",
+    "synonyms": [
+      "90s",
+      "1990s"
+    ]
+  },
+  {
+    "value": "moody",
+    "synonyms": [
+      "moody",
+      "somber"
+    ]
+  },
+  {
+    "value": "electroclash",
+    "synonyms": [
+      "electroclash"
+    ]
+  },
+  {
+    "value": "old school",
+    "synonyms": [
+      "old school"
+    ]
+  },
+  {
+    "value": "walking",
+    "synonyms": [
+      "walking",
+      "walk"
+    ]
+  },
+  {
+    "value": "gritty",
+    "synonyms": [
+      "gritty",
+      "grit"
+    ]
+  },
+  {
+    "value": "blues",
+    "synonyms": [
+      "blues",
+      "bluesy"
+    ]
+  },
+  {
+    "value": "chamber",
+    "synonyms": [
+      "chamber"
+    ]
+  },
+  {
+    "value": "disco",
+    "synonyms": [
+      "disco"
+    ]
+  },
+  {
+    "value": "frantic",
+    "synonyms": [
+      "frantic",
+      "crazy"
+    ]
+  },
+  {
+    "value": "dubstep",
+    "synonyms": [
+      "dubstep",
+      "dub"
+    ]
+  },
+  {
+    "value": "punk rock",
+    "synonyms": [
+      "punk rock",
+      "punk",
+      "punky"
+    ]
+  },
+  {
+    "value": "folk",
+    "synonyms": [
+      "folk"
+    ]
+  },
+  {
+    "value": "bluegrass",
+    "synonyms": [
+      "bluegrass"
+    ]
+  },
+  {
+    "value": "australian",
+    "synonyms": [
+      "australian"
+    ]
+  },
+  {
+    "value": "americana",
+    "synonyms": [
+      "americana",
+      "american"
+    ]
+  },
+  {
+    "value": "motown",
+    "synonyms": [
+      "motown"
+    ]
+  },
+  {
+    "value": "oldies",
+    "synonyms": [
+      "oldies"
+    ]
+  },
+  {
+    "value": "rock and roll",
+    "synonyms": [
+      "rock and roll",
+      "rock n roll",
+      "50s rock"
+    ]
+  },
+  {
+    "value": "pop punk",
+    "synonyms": [
+      "pop punk"
+    ]
+  },
+  {
+    "value": "dance rock",
+    "synonyms": [
+      "dance rock"
+    ]
+  },
+  {
+    "value": "country",
+    "synonyms": [
+      "country"
+    ]
+  },
+  {
+    "value": "ambient",
+    "synonyms": [
+      "ambient"
+    ]
+  },
+  {
+    "value": "dance beat",
+    "synonyms": [
+      "dance beat"
+    ]
+  },
+  {
+    "value": "inspiring",
+    "synonyms": [
+      "inspiring",
+      "inspired"
+    ]
+  },
+  {
+    "value": "appalachian",
+    "synonyms": [
+      "appalachian"
+    ]
+  },
+  {
+    "value": "harmonized",
+    "synonyms": [
+      "harmonized"
+    ]
+  },
+  {
+    "value": "southern",
+    "synonyms": [
+      "southern"
+    ]
+  },
+  {
+    "value": "clean",
+    "synonyms": [
+      "clean"
+    ]
+  },
+  {
+    "value": "sexy",
+    "synonyms": [
+      "sexy",
+      "sexual"
+    ]
+  },
+  {
+    "value": "chorused",
+    "synonyms": [
+      "chorused",
+      "chorusy"
+    ]
+  },
+  {
+    "value": "plucked",
+    "synonyms": [
+      "plucked",
+      "plucking"
+    ]
+  },
+  {
+    "value": "jammin",
+    "synonyms": [
+      "jammin",
+      "jamming"
+    ]
+  },
+  {
+    "value": "driving",
+    "synonyms": [
+      "driving"
+    ]
+  },
+  {
+    "value": "wobble",
+    "synonyms": [
+      "wobble"
+    ]
+  },
+  {
+    "value": "hip",
+    "synonyms": [
+      "hip"
+    ]
+  },
+  {
+    "value": "warbly",
+    "synonyms": [
+      "warbly"
+    ]
+  },
+  {
+    "value": "new orleans",
+    "synonyms": [
+      "new orleans",
+      "dixie",
+      "dixieland",
+      "new orleans jazz",
+      "second line",
+      "secondline"
+    ]
+  },
+  {
+    "value": "upright",
+    "synonyms": [
+      "upright"
+    ]
+  },
+  {
+    "value": "church",
+    "synonyms": [
+      "church"
+    ]
+  },
+  {
+    "value": "jig",
+    "synonyms": [
+      "jig"
+    ]
+  },
+  {
+    "value": "glitch",
+    "synonyms": [
+      "glitch"
+    ]
+  },
+  {
+    "value": "scifi",
+    "synonyms": [
+      "scifi"
+    ]
+  },
+  {
+    "value": "futuristic",
+    "synonyms": [
+      "futuristic"
+    ]
+  },
+  {
+    "value": "dirty",
+    "synonyms": [
+      "dirty"
+    ]
+  },
+  {
+    "value": "gospel",
+    "synonyms": [
+      "gospel"
+    ]
+  },
+  {
+    "value": "singer songwriter",
+    "synonyms": [
+      "singer songwriter"
+    ]
+  },
+  {
+    "value": "psychedelic",
+    "synonyms": [
+      "psychedelic"
+    ]
+  },
+  {
+    "value": "pad",
+    "synonyms": [
+      "pad"
+    ]
+  },
+  {
+    "value": "brushes",
+    "synonyms": [
+      "brushes"
+    ]
+  },
+  {
+    "value": "hootenany",
+    "synonyms": [
+      "hootenany",
+      "hoedown"
+    ]
+  },
+  {
+    "value": "nostalgic",
+    "synonyms": [
+      "nostalgic"
+    ]
+  },
+  {
+    "value": "energetic",
+    "synonyms": [
+      "energetic"
+    ]
+  },
+  {
+    "value": "spastic",
+    "synonyms": [
+      "spastic"
+    ]
+  },
+  {
+    "value": "lead",
+    "synonyms": [
+      "lead"
+    ]
+  },
+  {
+    "value": "swing",
+    "synonyms": [
+      "swing",
+      "swinging",
+      "swung"
+    ]
+  },
+  {
+    "value": "angelic",
+    "synonyms": [
+      "angelic"
+    ]
+  },
+  {
+    "value": "shout",
+    "synonyms": [
+      "shout"
+    ]
+  },
+  {
+    "value": "celtic",
+    "synonyms": [
+      "celtic"
+    ]
+  },
+  {
+    "value": "arpeggiated",
+    "synonyms": [
+      "arpeggiated",
+      "arpeggio"
+    ]
+  },
+  {
+    "value": "solo",
+    "synonyms": [
+      "solo"
+    ]
+  },
+  {
+    "value": "slap",
+    "synonyms": [
+      "slap",
+      "fieldy"
+    ]
+  },
+  {
+    "value": "drum and bass",
+    "synonyms": [
+      "drum and bass"
+    ]
+  },
+  {
+    "value": "twee",
+    "synonyms": [
+      "twee"
+    ]
+  },
+  {
+    "value": "mysterious",
+    "synonyms": [
+      "mysterious",
+      "strange"
+    ]
+  },
+  {
+    "value": "smooth jazz",
+    "synonyms": [
+      "smooth jazz",
+      "smooth"
+    ]
+  },
+  {
+    "value": "wailing",
+    "synonyms": [
+      "wailing",
+      "wail"
+    ]
+  },
+  {
+    "value": "hindustani classical",
+    "synonyms": [
+      "hindustani classical"
+    ]
+  },
+  {
+    "value": "neosoul",
+    "synonyms": [
+      "neosoul"
+    ]
+  },
+  {
+    "value": "trip hop",
+    "synonyms": [
+      "trip hop"
+    ]
+  },
+  {
+    "value": "Hip-Hop",
+    "synonyms": [
+      "Hip-Hop"
+    ]
+  },
+  {
+    "value": "tribal",
+    "synonyms": [
+      "tribal"
+    ]
+  },
+  {
+    "value": "folk",
+    "synonyms": [
+      "folk",
+      "folksy"
+    ]
+  },
+  {
+    "value": "whimsical",
+    "synonyms": [
+      "whimsical"
+    ]
+  },
+  {
+    "value": "folky",
+    "synonyms": [
+      "folky",
+      "folk"
+    ]
+  },
+  {
+    "value": "stabs",
+    "synonyms": [
+      "stabs"
+    ]
+  },
+  {
+    "value": "joyful",
+    "synonyms": [
+      "joyful",
+      "joyous"
+    ]
+  },
+  {
+    "value": "cute",
+    "synonyms": [
+      "cute"
+    ]
+  },
+  {
+    "value": "weird",
+    "synonyms": [
+      "weird"
+    ]
+  },
+  {
+    "value": "funny",
+    "synonyms": [
+      "funny",
+      "silly",
+      "novelty"
+    ]
+  },
+  {
+    "value": "sad",
+    "synonyms": [
+      "sad",
+      "pitiful",
+      "melancholy"
+    ]
+  },
+  {
+    "value": "latin jazz",
+    "synonyms": [
+      "latin jazz",
+      "latin"
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "id": "d79de02a-778a-4af7-8002-71fcab7d655e",
+  "name": "clear",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "clear",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "969e87db-31d5-4b62-8285-8a2ecf62cbfc",
+          "dataType": "@genre",
+          "name": "genre",
+          "value": "$genre",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "Alright, let’s start fresh. What do you want to add?"
+            },
+            {
+              "textToSpeech": "Clean slate. I like it. What do you want to start with?"
+            },
+            {
+              "textToSpeech": "Starting a new mix. What should we kick it off with?"
+            }
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "There’s nothing playing, but sure, here’s more nothing."
+            },
+            {
+              "textToSpeech": "How can you clear that which is already clear?"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509390944,
+  "fallbackIntent": false,
+  "events": []
+}
