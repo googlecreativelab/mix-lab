@@ -66,6 +66,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   public fallback;
   public scrollPos = 0;
   public adjustButton = false;
+  public songCheckInterval;
 
   @HostListener('window:resize') onResize($event) {
     this.positionBubble();
@@ -86,6 +87,13 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   ngOnInit() {
     // Clear playing tracks
     this.eventsService.broadcast('clearTracks');
+    this.songCheckInterval = setInterval(() => {
+      this.eventsService.broadcast('clearTracks');
+      this.eventsService.broadcast('setTrackState', {
+        state: 'intro',
+      });
+
+    }, 1000);
 
     setTimeout(() => {
       this.fadeState = 'in';
@@ -203,6 +211,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   ngOnDestroy() {
     this.clearIntroTimeouts();
     clearTimeout(this.timeout);
+    clearInterval(this.songCheckInterval);
   }
 
 }

@@ -79,9 +79,9 @@ and friends at Google Creative Lab.
 
 #### Music by
 
-Blake Straus: Composer & Musical Director
+[Blake Straus](http://blakestraus.com/) - Composer & Musical Director
 
-Alek Fin: Producer/Engineer
+Alek Fin - Producer/Engineer
 
 #### Musicians:
 

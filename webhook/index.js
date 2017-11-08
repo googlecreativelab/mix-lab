@@ -46,7 +46,9 @@ exports.webhook = (req, res) => {
 			logDebug('handleWebhook() result', req.body.result.fulfillment, req.body.result)
 			logDebug('handleWebhook() originalRequest', req.body.originalRequest)
 
-			if(isHealthCheck(req.body.originalRequest.data)) {
+			if(req.body.originalRequest &&
+				req.body.originalRequest.data &&
+				isHealthCheck(req.body.originalRequest.data)) {
 				// send original body through so we don't create anything in datastore
 				logDebug('isHealthCheck() true - exiting.')
 				return res.send(JSON.stringify(req.body))

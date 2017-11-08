@@ -69,7 +69,9 @@ export class FallbackService {
     let response = {};
 
     return new Promise((resolve, reject) => {
-      if (checkSpeech && checkSpeech === true) {
+      let ua = navigator.userAgent;
+      let isAndroidFirefox = ((ua.indexOf('Firefox') > -1 && ua.indexOf('Android ') > -1));
+      if (checkSpeech && checkSpeech === true && !isAndroidFirefox) {
 
         if (this.checkSpeechRecognition() || (this.checkMic() && this.checkWebRTC())) {
           response = {
@@ -90,6 +92,12 @@ export class FallbackService {
           response = {
             supported: false,
             message: 'Facebook browser does not support Mic recording.',
+          };
+          resolve(response);
+        } else if (isAndroidFirefox) {
+          response = {
+            supported: false,
+            message: '',
           };
           resolve(response);
         } else if (this.checkWebRTC() && this.checkWebGL() === 1) {

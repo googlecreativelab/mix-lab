@@ -175,10 +175,11 @@ exports.handleAllInstruments = (app, currentSession, sessionId) => {
 
 	getSongFromLookup(genresArr)
 		.then(lookupResult => {
-			// potential for some empty result arrays
-			if(lookupResult && lookupResult.length === 0) {
+            // potential for some empty result arrays, or if return comes back with { error: 'msg' } (bug for @tambien)
+            if( (lookupResult && lookupResult.length === 0) ||
+                (typeof lookupResult === 'object' && lookupResult.hasOwnProperty('error')) )  {
                 return app.ask('Sorry, I couldn\'t find anything for that. Can you try something else?')
-			}
+            }
 
 			currentSession.stems = lookupResult
 

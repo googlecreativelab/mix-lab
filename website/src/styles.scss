@@ -26,6 +26,7 @@ h6 {
 html {
   @include prefixer(font-smoothing, antialiased, webkit);
   @include prefixer(osx-font-smoothing, grayscale, moz);
+  @include prefixer(text-size-adjust, 100%, webkit);
   user-select: none;
   overflow: hidden;
 }

@@ -54,8 +54,10 @@
   font-size: 12px;
   transform: translateX(-50%);
   width: 90%;
+  color: $white;
 
   /deep/ a {
+    font-size: inherit;
     color: inherit;
   }
 

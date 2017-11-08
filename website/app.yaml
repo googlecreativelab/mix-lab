@@ -45,7 +45,6 @@ handlers:
   static_files: static/assets/voice-button.html
   upload: static/assets/voice-button.html
   secure: always
-  login: admin
 
 - url: /assets/(.*\.(html))
   static_files: static/assets/\1
@@ -56,31 +55,26 @@ handlers:
   static_files: static/jam.html
   upload: static/jam.html
   secure: always
-  login: admin
 
 - url: /jam
   static_files: static/jam.html
   upload: static/jam.html
   secure: always
-  login: admin
 
 - url: /
   static_files: static/index.html
   upload: static/index.html
   secure: always
-  login: admin
 
 - url: /about
   static_files: static/index.html
   upload: static/index.html
   secure: always
-  login: admin
 
 - url: /link?.*
   static_files: static/index.html
   upload: static/index.html
   secure: always
-  login: admin
 
 skip_files:
 - ^.idea/.*

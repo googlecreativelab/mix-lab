@@ -42,6 +42,17 @@
   @media (max-width: 700px) and (max-height: 350px) and (orientation: landscape) {
     max-width: 340px;
   }
+
+  @media (max-width: 700px) and (max-height: 375px) and (orientation: landscape) {
+    max-width: 660px;
+    bottom: 180px !important;
+    .bubble {
+      position: relative;
+      width: 200px;
+      margin: 0 auto;
+    }
+  }
+
 }
 
 .bubble {
@@ -54,6 +65,12 @@
   color: $black;
   padding-top: 5%;
   transform: translateX(-50%);
+
+  @media (max-width: 700px) and (max-height: 375px) and (orientation: landscape) {
+    top: 6px;
+    z-index: 1;
+  }
+
 }
 
 .tagline {
@@ -170,6 +187,9 @@ br.hidden {
 
   &.showing {
     opacity: 1;
+  }
+  @media (max-width: 700px) and (max-height: 375px) and (orientation: landscape) {
+    margin-top: 0px;
   }
 }
 
@@ -311,7 +331,7 @@ br.hidden {
   }
 
   @media (max-width: 700px) and (max-height: 375px) and (orientation: landscape) {
-    bottom: -75px;
+    bottom: -115px;
   }
 
   @media (max-width: 600px) and (max-height: 320px) and (orientation: landscape) {

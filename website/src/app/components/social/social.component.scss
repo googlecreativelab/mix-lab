@@ -65,6 +65,9 @@
 
   & + & {
     margin-left: 5px;
+    @media (min-width: 375px) {
+      margin-left: 13px;
+    }
   }
 
   &.facebook {
