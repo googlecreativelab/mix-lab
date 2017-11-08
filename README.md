@@ -3,6 +3,8 @@ Overview
 
 [MixLab] is an experiment that makes it easier for anyone to create music, using simple voice commands. It's part of the [Experiments With Google] platform, launching as part of our newest category - [Voice Experiments].
 
+![Mix Lab Website](https://github.com/googlecreativelab/mix-lab/raw/master/images/mixlab.jpg)
+
 Just say things like "Play me a funky bass," or "Add some jazz drums”, and [Dialogflow] will parse your intent into an actionable response, creating interesting songs at your command.
 
 MixLab is available on the Google Home and all Assistant platforms using [Actions on Google], so you can start making music by saying "Hey Google, talk to Mix Lab".
@@ -69,19 +71,19 @@ http://mixlab-dev.appspot.com/ - top level is test html for `/lookup` POST calls
 Who?
 ---
 
-####Built by
+#### Built by
 
 [Anthony Tripaldi](https://github.com/trippedout), [Maya Man](https://github.com/mayaman),
-Prit Patel, [Yotam Mann](https://github.com/tambien), [Use All Five](https://useallfive.com/),
+[Prit Patel](http://pritpatelfanclub.com/), [Yotam Mann](https://github.com/tambien), [Use All Five](https://useallfive.com/),
 and friends at Google Creative Lab.
 
-####Music by
+#### Music by
 
 Blake Straus: Composer & Musical Director
 
 Alek Fin: Producer/Engineer
 
-####Musicians:
+#### Musicians:
 
 [Blake Straus](http://blakestraus.com/) - Fretted instruments, basses, keyboards
 
@@ -101,7 +103,7 @@ Alison Balbag - Harp
 
 Ian Mallitz - Didgeridoo
 
-#####Additional Production Assistance:
+##### Additional Production Assistance:
 
 Daniel Braunstein, Christopher Dwyer, Zac Sager, Mashadi Maximus
 
