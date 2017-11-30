@@ -73,7 +73,7 @@ a {
   &.active {
     opacity: 1;
     pointer-events: auto;
-    transition: all 0.5s 2.5s;
+    transition: all 0.5s;
   }
 
   @include grid-media($m) {
@@ -87,3 +87,30 @@ a {
   display: block;
   transform: translate(-50%, -50%);
 }
+
+.mobileCTA {
+  @extend %button-outline;
+  position: fixed;
+  bottom: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+.mobileIntro {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  text-align: center;
+  width: 80%;
+  color: $white;
+
+  &.top {
+    transform: translateX(-50%);
+    top: 12%;
+  }
+}
+
+

@@ -1,4 +1,4 @@
-var Storage = {};
+window.Storage = {};
 var AudioContext = window.AudioContext || window.webkitAudioContext;
 // var recorder = new AudioRecorder();
 
@@ -25,6 +25,7 @@ function AudioRecorder(config) {
   var recordingLength = 0;
   var isPaused = false;
   var isAudioProcessStarted = false;
+  var Storage = window.Storage;
 
   this.start = function() {
     setupStorage();
@@ -96,7 +97,7 @@ function AudioRecorder(config) {
 
   function setupStorage() {
     if (!Storage.ctx) {
-      Storage.ctx = new AudioContext();  
+      Storage.ctx = new AudioContext();
     }
 
     if (Storage.ctx.createJavaScriptNode) {
@@ -125,7 +126,7 @@ function AudioRecorder(config) {
   }
 
   function onMicrophoneCaptureError() {
-    console.log("There was an error accessing the microphone. You may need to allow the browser access");
+    document.dispatchEvent(new CustomEvent('onMicEnableError'));
   }
 
   function onAudioProcess(e) {

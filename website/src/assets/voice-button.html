@@ -519,13 +519,27 @@
           });
           window.addEventListener('pagehide', () => {
             if (this.recorder) {
-              this.recorder.releaseMic();
-            }
-          });
+            this.recorder.releaseMic();
+          }
+        });
+
+          document.addEventListener('hideButton', () => {
+            if (this.recorder) {
+            this.recorder.releaseMic();
+          }
+        });
 
           document.addEventListener('onRecordingAutoStop', () => {
             this.stopListening();
-        });
+          });
+
+          document.addEventListener('onMicEnableError', () => {
+            this.circleViz.stopAnimation();
+            this.removeSpeechEventListeners();
+            Polymer.dom(this.root).querySelector('#mic-not-allowed').classList.add('show');
+            Polymer.dom(this.root).querySelector('#mic-svg-disabled').style.display = 'block';
+            Polymer.dom(this.root).querySelector('#mic-svg').style.display = 'none';
+          });
         }
       }
 

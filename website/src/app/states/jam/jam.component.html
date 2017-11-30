@@ -15,6 +15,7 @@
     [ngClass]="{'fallback-state': !(fallback)?.supported}">
     <ng-container *ngIf="(fallback)?.supported">
       <div
+        *ngIf="!introShowing"
         class="action">
         <span class="idle-text" [ngClass]="{'idle': idle}">
           <span class="actiontext mobile">Tap</span>
@@ -26,15 +27,15 @@
           Listening...
         </span>
       </div>
-      <div #message class="message" [ngClass]="{'showing':showCommand, 'listening': listening}">{{command}}</div>
+      <div #message class="message" [ngClass]="{'showing':showCommand, 'listening': listening}" *ngIf="!introShowing">{{command}}</div>
     </ng-container>
-    <ng-container *ngIf="!(fallback)?.supported">
+    <ng-container *ngIf="!(fallback)?.supported && canShowFallback">
       <div class="fallback" [innerHTML]="(fallback)?.message"></div>
     </ng-container>
   </div>
 
   <app-track-names></app-track-names>
-  <app-social *ngIf="(fallback)?.supported"></app-social>
+  <app-social *ngIf="(fallback)?.supported && !introShowing"></app-social>
 
   <!--<div class="debug">-->
     <!--<input #debug type="text" (keyup.enter)="makeIntent(debug.value)">-->

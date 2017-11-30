@@ -208,6 +208,10 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
     }
   }
 
+  start() {
+    this.eventsService.broadcast('startFromHome');
+  }
+
   ngOnDestroy() {
     this.clearIntroTimeouts();
     clearTimeout(this.timeout);

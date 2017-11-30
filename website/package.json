@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "stage": "ng build --prod; ./share.sh; say 'need your attention'; gcloud app deploy --version=qa --no-promote --project=say-to-play; say 'deploy complete'",
+    "stage": "ng build --prod; ./share.sh; say 'need your attention'; gcloud app deploy --no-promote --project=say-to-play; say 'deploy complete'",
     "serve-https": "ng serve --ssl true --ssl-key server.key --ssl-cert server.cer --host=0.0.0.0 --disable-host-check"
   },
   "private": true,

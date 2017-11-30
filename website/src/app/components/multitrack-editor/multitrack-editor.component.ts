@@ -26,6 +26,7 @@ import {StemService} from "../../services/stem.service";
 import {SuggestionService} from "../../services/suggestion.service";
 import {Angulartics2} from "angulartics2";
 import indefiniteArticle from "indefinite-article"
+import {FallbackService} from "../../services/fallback.service";
 
 declare var window;
 
@@ -39,6 +40,9 @@ const SFXInterval = 5000;
 })
 export class MultitrackEditorComponent implements OnInit, AfterViewInit {
   @ViewChild('visualTracksCanvas') canvasRef: ElementRef;
+  public SHARED_TRACK_NO_AUTOPLAY: string = 'Press anywhere on the screen and make sure your sound is on to hear your friend’s mix.';
+  public SHARED_TRACK: string = 'Make sure your sound is on to hear your friend’s mix.';
+  public DEFAULT: string = 'Tap anywhere on the screen to do a quick sound check.';
   public NUM_TRACKS: number = 4;
   public MAX_VOLUME: number = 10;
   public MIN_VOLUME: number = -25;
@@ -59,12 +63,22 @@ export class MultitrackEditorComponent implements OnInit, AfterViewInit {
   public sfxTimeouts: Array<any> = [];
   public hideCanvas = false;
   public canAutoplay: boolean;
+  public mobileIntroText: string = 'Tap anywhere to begin.';
+  public isJamming: boolean;
+  public audioCxtActivated: boolean;
+  public isOnJamPage: boolean;
+  public seenIntro: boolean;
+  public isSharedSong: boolean;
+  public startCopy: string = 'Start Jamming';
+  public showIntroText:boolean = true;
+  public fallback;
 
   constructor(
     public eventsService: EventsService,
     public stemService: StemService,
     public suggestionsService: SuggestionService,
-    public angulartics2: Angulartics2
+    public angulartics2: Angulartics2,
+    public fallbackService: FallbackService
   ) {
     this.isTouch = 'ontouchstart' in document.documentElement;
     let AudioContext = window.AudioContext || window.webkitAudioContext;
@@ -73,6 +87,11 @@ export class MultitrackEditorComponent implements OnInit, AfterViewInit {
   }
 
   ngOnInit() {
+    // Check browser support from service
+    this.fallbackService.checkBrowserSupport(true).then(res => {
+      this.fallback = ((res) ? res : null);
+    });
+
     this.eventsService.on('intent', (data: Intent) => {
       var matchingAddedStem: Stem;
       var excludedIds: string = '';
@@ -358,7 +377,9 @@ export class MultitrackEditorComponent implements OnInit, AfterViewInit {
     });
 
     this.eventsService.on('showVoiceButton', (state) => {
-      this.voiceButtonVisible = true;
+      if (!this.isTouch) {
+        this.voiceButtonVisible = true;
+      }
     });
 
     // Hide canvas when tooltip shows
@@ -367,6 +388,46 @@ export class MultitrackEditorComponent implements OnInit, AfterViewInit {
       if (state) {
         this.canvasRef.nativeElement.remove();
       }
+    });
+
+    let mobileTouchInitHandler = () => {
+      if (!this.seenIntro && this.isOnJamPage) {
+        this.touchAudio();
+        this.unmute();
+        this.addDrums();
+        this.seenIntro = true;
+      }
+      //document.removeEventListener('touchstart', mobileTouchInitHandler);
+    };
+    document.addEventListener('touchstart', mobileTouchInitHandler);
+
+
+    this.eventsService.on('offJamPage', () => {
+      this.isOnJamPage = false;
+      this.seenIntro = false;
+      this.isSharedSong = false;
+      this.showIntroText = true;
+      document.dispatchEvent(new CustomEvent('hideButton'));
+    });
+
+    this.eventsService.on('onJamPage', () => {
+      if (this.isSharedSong) {
+        this.mobileIntroText = (this.canAutoplay) ? this.SHARED_TRACK : this.SHARED_TRACK_NO_AUTOPLAY;
+        this.isOnJamPage = true;
+        this.seenIntro = true;
+        this.showIntroText = true;
+        this.startCopy = 'Add to Your Friend’s Mix';
+      } else {
+        this.mobileIntroText = this.DEFAULT;
+        this.isOnJamPage = true;
+        this.seenIntro = false;
+        this.showIntroText = true;
+        this.startCopy = 'Start Jamming';
+      }
+    });
+
+    document.addEventListener('onMicEnableError', () => {
+      alert('To use MixLab, you’ll need to grant microphone access. You may need to also refresh the page.');
     });
   }
 
@@ -449,6 +510,7 @@ export class MultitrackEditorComponent implements OnInit, AfterViewInit {
 
     this.eventsService.on('loadedStems', (data) => {
       if (data) {
+        this.isSharedSong = true;
         setTimeout(() => {
           let stemArray = [];
           let sfxArray = [];
@@ -582,11 +644,13 @@ export class MultitrackEditorComponent implements OnInit, AfterViewInit {
   touchAudio() {
     if (!this.multitracks) {
       this.multitracks = new StemPlayer();
+      this.audioCxtActivated = true;
     }
   }
 
   // Play loaded song on mobile
   playLoaded() {
+    this.eventsService.broadcast('playBtnClick');
     this.showMobilePlay = false;
     if (this.multitracks) {
       this.multitracks.resume();
@@ -642,4 +706,17 @@ export class MultitrackEditorComponent implements OnInit, AfterViewInit {
     this.angulartics2.eventTrack.next({ action: 'Intent', properties: { category: category, label: tag }});
 
   }
+
+  startMobile() {
+    this.voiceButtonVisible = true;
+    this.eventsService.broadcast('jamStart');
+  }
+
+  addDrums() {
+    this.mobileIntroText = 'Adjust your volume. You should be able to hear drums.';
+    this.stemService.getStem('drums', null)
+      .then((stem: Stem) => {
+        this.add(stem, false);
+      });
+    }
 }

@@ -93,6 +93,10 @@ $poppins: 'Poppins', Helvetica, Arial, sans-serif;
     border: none;
   }
 
+  &.inverted {
+    background-color: rgba($white, 0.8);
+  }
+
   &:active,
   &:focus,
   &:hover {

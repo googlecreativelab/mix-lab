@@ -1,12 +1,16 @@
 <div
+  (click)="playLoaded()"
   [ngClass]="{'active': showMobilePlay}"
   class="mobile-play">
   <span
-    (click)="playLoaded()"
     class="play-icon"
     [inlineSVG]="'/assets/images/play.svg'">
   </span>
 </div>
+<div class="mobileIntro" [ngClass]="{'top': seenIntro}" *ngIf="!voiceButtonVisible && isOnJamPage && isTouch && showIntroText && (showMobilePlay || fallback.supported)">
+  {{mobileIntroText}}
+</div>
+<div (click)="startMobile()" class="mobileCTA inverted" *ngIf="seenIntro && isOnJamPage && !voiceButtonVisible && isTouch && !showMobilePlay && fallback.supported">{{startCopy}}</div>
 <div
   class="voice-wrap"
   [ngClass]="{'visible': voiceButtonVisible}">

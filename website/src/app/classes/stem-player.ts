@@ -18,6 +18,8 @@ import {Tone, Synth, Sampler, Sequence, Player, Transport, TransportTime, Analys
 import TweenMax from 'gsap';
 import {Stem} from "./stem"
 
+declare var window;
+
 export class StemPlayer {
 
   public synth;
@@ -26,7 +28,7 @@ export class StemPlayer {
 
   constructor() {
     this.synth = new Synth().toMaster();
-    Transport.start();
+    window.Storage = {ctx: this.synth.context};
     //this.synth.triggerAttackRelease('C4', 0.5);
   }
 

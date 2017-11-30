@@ -43,13 +43,14 @@
     max-width: 340px;
   }
 
-  @media (max-width: 700px) and (max-height: 375px) and (orientation: landscape) {
-    max-width: 660px;
-    bottom: 180px !important;
-    .bubble {
-      position: relative;
-      width: 200px;
-      margin: 0 auto;
+  @media (max-width: 700px) and (max-height: 340px) and (orientation: landscape) {
+    max-width: 270px;
+  }
+
+  @media (max-width: 700px) and (max-height: 320px) and (orientation: landscape) {
+    .bubble,
+    .bubble-text {
+      margin-top: 100px;
     }
   }
 
@@ -65,12 +66,6 @@
   color: $black;
   padding-top: 5%;
   transform: translateX(-50%);
-
-  @media (max-width: 700px) and (max-height: 375px) and (orientation: landscape) {
-    top: 6px;
-    z-index: 1;
-  }
-
 }
 
 .tagline {
@@ -125,13 +120,22 @@
   }
 
   @media (max-width: 670px) and (max-height: 375px) and (orientation: landscape) {
-    @include margin(-20px auto -75px); // IMPORTANT FOR GAP BETWEEN HOME AND BUBBLE
+    @include margin(-20px auto -100px); // IMPORTANT FOR GAP BETWEEN HOME AND BUBBLE
     max-width: 72%;
   }
 
+  @media (max-width: 700px) and (max-height: 340px) and (orientation: landscape) {
+    @include margin(-20px auto -130px); // IMPORTANT FOR GAP BETWEEN HOME AND BUBBLE
+    max-width: 100%;
+
+    span {
+      font-size: 12px !important;
+    }
+  }
+
   @media (max-width: 600px) and (max-height: 320px) and (orientation: landscape) {
-    @include margin(-20px auto -90px); // IMPORTANT FOR GAP BETWEEN HOME AND BUBBLE
-    max-width: 90%;
+    @include margin(-20px auto -130px); // IMPORTANT FOR GAP BETWEEN HOME AND BUBBLE
+    max-width: 100%;
   }
 
   span {
@@ -154,6 +158,10 @@
 
     @media (max-width: 375px) and (max-height: 700px) {
       margin-top: 20px;
+    }
+
+    @media (max-width: 600px) and (max-height: 320px) and (orientation: landscape) {
+      margin-top: 17px;
     }
 
     &.showing {
@@ -188,8 +196,13 @@ br.hidden {
   &.showing {
     opacity: 1;
   }
+
   @media (max-width: 700px) and (max-height: 375px) and (orientation: landscape) {
-    margin-top: 0px;
+    margin-top: -5px;
+  }
+
+  @media (max-width: 700px) and (max-height: 340px) and (orientation: landscape) {
+    font-size: 12px !important;
   }
 }
 
@@ -292,6 +305,13 @@ br.hidden {
     @include position(fixed, null auto $spacing-s 50%);
   }
 
+  @media (max-width: 700px) and (max-height: 340px) and (orientation: landscape) {
+    @include padding(5px);
+    bottom: 15px;
+    font-size: 10px;
+    min-width: 175px;
+  }
+
   // Special case for scrolling button on landscape mobile
   &.adjust {
     bottom: 70px;
@@ -334,8 +354,8 @@ br.hidden {
     bottom: -115px;
   }
 
-  @media (max-width: 600px) and (max-height: 320px) and (orientation: landscape) {
-    bottom: -90px;
+  @media (max-width: 700px) and (max-height: 320px) and (orientation: landscape) {
+    bottom: -130px;
   }
 }
 

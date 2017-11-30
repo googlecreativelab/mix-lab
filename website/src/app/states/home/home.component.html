@@ -58,6 +58,7 @@
     angularticsEvent="Click"
     angularticsCategory="CTA_Try_It"
     class="button"
+    (click)="start()"
     *ngIf="(fallback)?.supported">
     <span
       [inlineSVG]="'/assets/images/icon-mic.svg'"
