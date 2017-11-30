@@ -73,7 +73,7 @@ Who?
 
 #### Built by
 
-[Anthony Tripaldi](https://github.com/trippedout), [Maya Man](https://github.com/mayaman),
+[Anthony Tripaldi](https://github.com/trippedout), [LAD](http://lucasallendesigns.com/), [Maya Man](https://github.com/mayaman),
 [Prit Patel](http://pritpatelfanclub.com/), [Yotam Mann](https://github.com/tambien), [Use All Five](https://useallfive.com/),
 and friends at Google Creative Lab.
 
