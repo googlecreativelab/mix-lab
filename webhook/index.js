@@ -14,13 +14,15 @@
  * limitations under the License.
  */
 
-'use strict';
+"use strict";
 
-const DialogflowApp = require('actions-on-google').DialogflowApp;
+const DialogflowApp = require("actions-on-google").DialogflowApp;
 
-const { handleIntent } = require('./intent-handler')
-const { handleFollowups } = require('./followups')
-const { logDebug, logError } = require('./logging')
+const { handleIntent } = require("./intent-handler");
+const { handleFollowups } = require("./followups");
+const { logDebug, logError } = require("./logging");
+
+const { firebaseDB }= require("./firebasedatabase.js");
 
 /**
 * Main webhook export. If not from website, passes request along for all Actions on Google integration handling
@@ -29,45 +31,50 @@ const { logDebug, logError } = require('./logging')
 * 	gcloud beta functions deploy webhook --trigger-http --stage-bucket your.stagingbucket.appspot.com
 */
 exports.webhook = (req, res) => {
-	// Our main app website should pass along an extra var with Dialogflow request letting us know
-	// where its coming from. Lacking this variable means coming from Home, Dialogflow, Web Simulator etc
-	let requestFromFrontend = (req.body.originalRequest &&
-		req.body.originalRequest['source'] &&
-		req.body.originalRequest['source'] === "frontend"
-	) || false
+	initialize(req, res)
+}
 
-	if(requestFromFrontend) {
-		// frontend doesn't yet need any fancy processing, pass the result along from Dialogflow straight back to frontend
-		// so they can handle on their own
-		res.send(req.body)
-	} else if(req.body.result) {
-			// we have a result so lets process all this good stuff
-		new DialogflowApp({request: req, response: res}).handleRequest(app => {
-			logDebug('handleWebhook() result', req.body.result.fulfillment, req.body.result)
-			logDebug('handleWebhook() originalRequest', req.body.originalRequest)
+// Helper to export separate function for testing in dev environment
+exports.webhookStaging = (req, res) => {
+	initialize(req, res)
+}
 
-			if(req.body.originalRequest &&
-				req.body.originalRequest.data &&
-				isHealthCheck(req.body.originalRequest.data)) {
-				// send original body through so we don't create anything in datastore
-				logDebug('isHealthCheck() true - exiting.')
-				return res.send(JSON.stringify(req.body))
-			}
+const initialize = (req, res) => {
+    // Our main app website should pass along an extra var with Dialogflow request letting us know
+    // where its coming from. Lacking this variable means coming from Home, Dialogflow, Web Simulator etc
+    let requestFromFrontend =
+        (req.body.originalRequest && req.body.originalRequest["source"] && req.body.originalRequest["source"] === "frontend") || false;
 
-			let action = app.getIntent()
+    if (requestFromFrontend) {
+        // frontend doesn't yet need any fancy processing, pass the result along from Dialogflow straight back to frontend
+        // so they can handle on their own
+        res.send(req.body);
+    } else if (req.body.result) {
+        // we have a result so lets process all this good stuff
+        new DialogflowApp({ request: req, response: res }).handleRequest(app => {
+            logDebug("handleWebhook() result", req.body.result.fulfillment, req.body.result);
+            logDebug("handleWebhook() originalRequest", req.body.originalRequest);
 
-			if (action === 'input.unknown') {
-				handleFallback(req, res)
-			} else if (action.includes('followup.')) {
-				handleFollowups(app, req.body, res)
-			} else {
-				handleIntent(app, req.body)
-			}
-		})
-	} else {
-		// only fires if malformed request from Dialogflow / local webserver that doesn't handle frontend var
-		res.send(JSON.stringify({ 'displayText': "thank you for testing!" }));
-	}
+            if (req.body.originalRequest && req.body.originalRequest.data && isHealthCheck(req.body.originalRequest.data)) {
+                // send original body through so we don't create anything in datastore
+                logDebug("isHealthCheck() true - exiting.");
+                return res.send(JSON.stringify(req.body));
+            }
+
+            let action = app.getIntent();
+
+            if (action === "input.unknown") {
+                handleFallback(req, res);
+            } else if (action.includes("followup.")) {
+                handleFollowups(app, req.body, res);
+            } else {
+                handleIntent(app, req.body);
+            }
+        });
+    } else {
+        // only fires if malformed request from Dialogflow / local webserver that doesn't handle frontend var
+        res.send(JSON.stringify({ displayText: "thank you for testing!" }));
+    }
 }
 
 /**
@@ -77,24 +84,30 @@ exports.webhook = (req, res) => {
  * as if it were the website or a fallback.
  */
 const isHealthCheck = originalRequestData => {
-    let args = originalRequestData.inputs[0].arguments // args = [Object]
-	let isCheck = false
-	if(args !== undefined && args.length > 0) {
+	let args = originalRequestData.inputs[0].arguments; // args = [Object]
+	let isCheck = false;
+	if (args !== undefined && args.length > 0) {
 		args.forEach((item, i) => {
-            logDebug(`isHealthCheck() args[${i}].item`, item, item.name, item.name === 'is_health_check')
-			if(item.name === 'is_health_check') {
-                isCheck = true
+			logDebug(`isHealthCheck() args[${i}].item`, item, item.name, item.name === "is_health_check");
+			if (item.name === "is_health_check") {
+				isCheck = true;
 			}
-		})
+		});
 	}
 
-	return isCheck
-}
+	return isCheck;
+};
 
 const handleFallback = (req, res) => {
 	// Send the info straight back to site after logging
-	logError("handleFallback", req.body.result.source, req.body.result.resolvedQuery, req.body.result.contexts)
-	logError("handleFallback.full", req.body.result)
+	logError("handleFallback", req.body.result.resolvedQuery);
+	logError("handleFallback.full", req.body.result);
 
-	res.send(JSON.stringify(req.body))
-}
+	try {
+        firebaseDB.error(req.body.sessionId, "wh_fallback", req.body.result.resolvedQuery);
+		res.send(JSON.stringify(req.body));
+	} catch (exception) {
+		logError("track error", exception);
+		res.send(JSON.stringify(req.body));
+	}
+};

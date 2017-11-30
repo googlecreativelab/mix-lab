@@ -7,16 +7,18 @@
   "scripts": {
     "lint": "eslint --fix \"**/*.js\"",
     "deploy": "gcloud beta functions deploy webhook --trigger-http --stage-bucket staging.say-to-play.appspot.com",
+    "stage": "gcloud beta functions deploy webhookStaging --trigger-http --stage-bucket staging.say-to-play.appspot.com",
     "call": "gcloud beta functions call webhook",
     "test": "functions call webhook --file=test-data.json && functions logs read"
   },
   "dependencies": {
     "@google-cloud/datastore": "^1.1.0",
     "actions-on-google": "^1.5.1",
+    "firebase-admin": "^5.5.0",
     "node-fetch": "^1.7.3",
-    "superagent": "^3.5.2"
+    "superagent": "^3.8.1"
   },
   "devDependencies": {
-    "eslint": "^4.6.1"
+    "eslint": "^4.11.0"
   }
 }

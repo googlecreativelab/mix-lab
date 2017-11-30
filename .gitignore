@@ -3,4 +3,10 @@
 npm-debug.log
 .idea
 .idea/
+_from_yotam/*
+*/_test
+stitcher/tmp/
+stitcher/audio/
 *.asd
+_github/
+*/firebase_credentials.json

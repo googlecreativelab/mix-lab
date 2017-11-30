@@ -23,6 +23,8 @@ const response = require('./response')
 const { getStemsFromLookup, getSongFromLookup } = require('./lookup')
 const { logDebug, logError, log } = require('./logging')
 
+const { firebaseDB }= require("./firebasedatabase.js");
+
 // ARGs related to our entities in DialogFlow, here are the four types we use add/remove intents
 const ARG_GENRE = 'genre'
 const ARG_INSTRUMENT = 'instrument'
@@ -40,6 +42,8 @@ const ARG_GENRES = 'genres'
 exports.addInstrumentToSession = (app, currentSession, sessionId) => {
 	// Create object of requested instrument
 	let requestedStem = getRequestedStemFromApp(app)
+
+    firebaseDB.log(sessionId, "wh_addInstrument", requestedStem)
 
     log('addInstrumentToSession', requestedStem, currentSession ? currentSession.stems : 'stems:[]')
 
@@ -63,10 +67,14 @@ exports.addInstrumentToSession = (app, currentSession, sessionId) => {
 			// set current session to the result
 			currentSession.stems = lookupResult
 
+            firebaseDB.log(sessionId, "wh_addInstrument_success")
+
             ChirpSessionManager.updateSession(sessionId, currentSession, app)
                 .then(updatedEnt => response.makeAudioResponse(app, currentSession))
 		})
 		.catch(lookupError => {
+            firebaseDB.error(sessionId, "wh_addInstrument_error")
+
 			if(lookupError.suggestions) {
 				handleSuggestions(app, currentSession, sessionId, lookupError.suggestions)
 			} else {
@@ -82,7 +90,9 @@ exports.removeInstrumentFromSession = (app, currentSession, sessionId) => {
 	let requestedStem = getRequestedStemFromApp(app)
 	let removedStem = tryToRemoveStemFromSession(requestedStem, currentSession)
 
-	// You just removed the last one
+    firebaseDB.log(sessionId, "wh_removeInstrument", requestedStem)
+
+    // You just removed the last one
 	if(removedStem && currentSession.stems.length === 0) {
 		return ChirpSessionManager.updateSession(sessionId, currentSession, app)
 			.then(response => {
@@ -101,10 +111,13 @@ exports.removeInstrumentFromSession = (app, currentSession, sessionId) => {
             // set current session to the result
 			currentSession.stems = lookupResult
 
+            firebaseDB.log(sessionId, "wh_removeInstrument_success")
+
             ChirpSessionManager.updateSession(sessionId, currentSession, app)
                 .then(updatedEnt => response.makeAudioResponse(app, currentSession))
 		})
 		.catch(lookupError => {
+            firebaseDB.error(sessionId, "wh_removeInstrument_error")
 			logError('removeInstrumentFromSessio::StemLookup', lookupError)
 			return app.ask('Error looking up tracks, please try again!')
 		})
@@ -150,14 +163,20 @@ exports.replaceInstrumentInSession = (app, currentSession, sessionId) => {
 
 	logDebug('stemToReplace::afterUpdate', stemToReplace, currentSession.stems)
 
+    firebaseDB.log(sessionId, "wh_replaceInstrument", stemToReplace)
+
 	getStemsFromLookup(currentSession)
 		.then(lookupResult => {
             currentSession.stems = lookupResult
+
+            firebaseDB.log(sessionId, "wh_replaceInstrument_success")
 
             ChirpSessionManager.updateSession(sessionId, currentSession, app)
                 .then(updatedEnt => response.makeAudioResponse(app, currentSession))
 		})
 		.catch(lookupError => {
+            firebaseDB.error(sessionId, "wh_replaceInstrument_error")
+
 			if(lookupError.suggestions) {
 				return handleSuggestions(app, currentSession, sessionId, lookupError.suggestions, true)			
 			} else {
@@ -173,6 +192,8 @@ exports.handleAllInstruments = (app, currentSession, sessionId) => {
 
 	logDebug('handleAllInstruments', genresArr)
 
+    firebaseDB.log(sessionId, "wh_allInstruments", genresArr)
+
 	getSongFromLookup(genresArr)
 		.then(lookupResult => {
             // potential for some empty result arrays, or if return comes back with { error: 'msg' } (bug for @tambien)
@@ -183,10 +204,13 @@ exports.handleAllInstruments = (app, currentSession, sessionId) => {
 
 			currentSession.stems = lookupResult
 
+            firebaseDB.log(sessionId, "wh_allInstruments_success")
+
             ChirpSessionManager.updateSession(sessionId, currentSession, app)
                 .then(updatedEnt => response.makeAudioResponse(app, currentSession))
 		})
 		.catch(lookupError => {
+            firebaseDB.error(sessionId, "wh_allInstruments_error")
             logError('handleAllInstruments() getSongFromLookup', lookupError)
             return app.ask("Sorry, I didn't catch that")
 		})
