@@ -279,23 +279,27 @@ const makeSuggestion = suggestions => {
         let SUGGESTION_CHOICES = [
             `Sorry, I don’t have that one, but I’ve got a ${tag1} ${instrument1}`,
             `I can’t play that, but why not try a ${tag1} ${instrument1}`,
-            `I haven’t learned that one yet, but try a ${tag1} ${instrument1}`
+            `I haven’t learned that one yet, but try a ${tag1} ${instrument1}`, 
+            `I am unable to play that, but you could try a ${tag1} ${instrument1}`
+
         ]
 
 		if(suggestions.length >= 2) {
             let instrument2 = suggestions[1].instrument
             let tag2 = suggestions[1].tag
-
+`
             SUGGESTION_CHOICES = [
                 `Sorry, I don’t have that one, but I’ve got a ${tag1} ${instrument1} or ${tag2} ${instrument2}.`,
                 `I can’t play that, but why not try a ${tag1} ${instrument1} or ${tag2} ${instrument2}.`,
                 `I haven’t learned that one yet, but try a ${tag1} ${instrument1} or ${tag2} ${instrument2} instead.`
+                `I am unable to play that, but you could try a ${tag1} ${instrument1} or ${tag2} ${instrument2} instead.`
+
             ]
         }
 
 		return SUGGESTION_CHOICES[Math.floor(Math.random()*SUGGESTION_CHOICES.length)]
 	} else {
-		return "Sorry, I don't have that. Try something else."
+		return "Sorry, I don't have that yet. Try something else."
 	}
 }
 
