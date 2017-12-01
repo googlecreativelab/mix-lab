@@ -30,7 +30,7 @@ const MAX_BPM = 160
 exports.speedUp = (app, currentSession, sessionId) => {
     // duh
     if(currentSession.stems.length === 0) {
-        return app.ask('Sorry, it would be weird to change the speed of nothing. Try adding an instrument first!')
+        return app.ask('Sorry, something needs to be playing to change its speed. Try adding an instrument.')
     }
 
     let bpm = getBpmFromApp(app, currentSession)
@@ -40,7 +40,7 @@ exports.speedUp = (app, currentSession, sessionId) => {
 exports.slowDown = (app, currentSession, sessionId) => {
     // duh
     if(currentSession.stems.length === 0) {
-        return app.ask('Sorry, how can you slow down nothing? That\'s like dividing by zero')
+        return app.ask('Sorry, how can you slow down nothing? That\'s like dividing by zero!')
     }
 
     // the bpm we get back will be positive, so slow it down
@@ -51,7 +51,7 @@ exports.slowDown = (app, currentSession, sessionId) => {
 exports.handleSuperSpeed = (app, currentSession, sessionId, isFast) => {
     if(currentSession.stems.length === 0) {
         if(isFast) {
-            return app.ask('WARP SPEED cannot be enabled without any tracks, sir!')
+            return app.ask('WARP SPEED cannot be enabled without any tracks!')
         } else {
             return app.ask('You\'re telling me to slow down? You haven\'t even added anything yet.')
         }
