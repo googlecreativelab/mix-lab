@@ -55,7 +55,7 @@ exports.playSingleInstrument = (app, currentSession, sessionId) => {
 	}
 
 	if(!stemToKeep) {
-		return app.ask("You can't keep something you don't have, please try again.")
+		return app.ask("You can't keep something you have not yet added. Please try again.")
 	}
 
 	currentSession.stems = [stemToKeep]
