@@ -1,3 +1,9 @@
+This project is no longer actively maintained by the Google Creative Lab but remains here in a read-only Archive mode so that it can continue to assist developers that may find the examples helpful. We aren’t able to address all pull requests or bug reports but outstanding issues will remain in read-only mode for reference purposes. Also, please note that some of the dependencies may not be up to date and there hasn’t been any QA done in a while so your mileage may vary.
+
+For more details on how Archiving affects Github repositories see [this documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-archiving-repositories).
+
+**We welcome users to fork this repository** should there be more useful, community-driven efforts that can help continue what this project began.
+
 Overview
 ===
 
